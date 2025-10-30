@@ -1,0 +1,12 @@
+import React from 'react';
+
+function ProfilePage() {
+  return (
+    <div>
+      <h2>My Profile & Tickets</h2>
+      <p>This page will show the user's booking history.</p>
+    </div>
+  );
+}
+
+export default ProfilePage;

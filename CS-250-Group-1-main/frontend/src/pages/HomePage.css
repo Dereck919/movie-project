@@ -1,0 +1,25 @@
+.home-page {
+    padding: 20px;
+}
+
+.movie-list {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: flex-start;
+    padding: 20px 0;
+}
+
+/* Make sure the text content (h2 and p) take full width */
+.movie-list h2,
+.movie-list p {
+    width: 100%;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .movie-list {
+        justify-content: center;
+    }
+}

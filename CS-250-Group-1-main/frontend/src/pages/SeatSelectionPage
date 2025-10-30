@@ -1,0 +1,12 @@
+import React from 'react';
+
+function SeatSelectionPage() {
+  return (
+    <div>
+      <h2>Seat Selection</h2>
+      <p>This is where the seat map for a specific showtime will be displayed.</p>
+    </div>
+  );
+}
+
+export default SeatSelectionPage;

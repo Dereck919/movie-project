@@ -1,0 +1,12 @@
+import React from 'react';
+
+function SnackOrderingPage() {
+  return (
+    <div>
+      <h2>Order Snacks</h2>
+      <p>This is where the snack and concession ordering form will go.</p>
+    </div>
+  );
+}
+
+export default SnackOrderingPage;

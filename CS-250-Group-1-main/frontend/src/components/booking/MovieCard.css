@@ -1,0 +1,39 @@
+/* Basic styling for the MovieCard component */
+.movie-card {
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 1rem;
+  margin: 1rem;
+  width: 250px;
+  text-align: center;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.movie-card-poster {
+  width: 100%;
+  border-radius: 4px;
+}
+
+.movie-card-title {
+  font-size: 1.25rem;
+  margin: 0.5rem 0;
+}
+
+.movie-card-details {
+  font-size: 0.9rem;
+  color: #666;
+}
+
+.movie-card-button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-top: 1rem;
+}
+
+.movie-card-button:hover {
+  background-color: #0056b3;
+}

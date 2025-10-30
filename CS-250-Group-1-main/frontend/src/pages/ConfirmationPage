@@ -1,0 +1,12 @@
+import React from 'react';
+
+function ConfirmationPage() {
+  return (
+    <div>
+      <h2>Booking Confirmation</h2>
+      <p>This page will show the user's ticket, QR code, and order details.</p>
+    </div>
+  );
+}
+
+export default ConfirmationPage;
