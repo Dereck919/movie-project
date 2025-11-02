@@ -1,4 +1,3 @@
-/* Simple CSS for the loading spinner */
 @keyframes spinner {
   0% {
     transform: rotate(0deg);
