@@ -13,7 +13,7 @@ app.use(express.json());
 app.use(cookieParser());
 app.use(
   cors({
-    origin: ["idk yet"],
+    origin: ["http://localhost:5173/"],
     credentials: true,
   })
 );
@@ -30,6 +30,10 @@ const requireAuth = async (req, res, next) => {
   req.user = data.user;
   next();
 };
+
+app.get("/", async (req, res) => {
+  res.status(200).json({ message: "hi" });
+});
 
 app.post("/signup", async (req, res) => {
   try {
