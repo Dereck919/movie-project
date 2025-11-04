@@ -4,31 +4,37 @@ import express from 'express'
 import path from 'path'
 
 
+
 async function scrapeFandango() {
     const browser = await puppeteer.launch();
     const page = await browser.newPage();
+    await page.setDefaultTimeout(60000); 
 
     try {
-        await page.goto('https://www.fandango.com/movies-in-theaters');
+        await page.goto('https://www.fandango.com/san-diego_ca_movietimes');
 
-        await page.waitForSelector('.browse-movielist > li'); 
+        await page.waitForSelector('.fd-movie'); 
 
         const movies = await page.evaluate(() => {
-            const movieElements = document.querySelectorAll('.browse-movielist > li');
+            const movieElements = document.querySelectorAll('.fd-movie');
             const movieData = [];
 
-            movieElements.forEach(item => {
-                const titleElement = item.querySelector('.poster-card--title');
+            movieElements.forEach(movie => {
+                //Gets title
+                const titleElement = movie.querySelector('.fd-movie__title');
                 const title = titleElement ? titleElement.textContent.trim() : 'N/A';
-                
-                
-                const linkElement = item.querySelector('a');
-                const link = linkElement ? linkElement.href : 'N/A';
 
-                const imageElement = item.querySelector('img');
+                const runElement = movie.querySelector('.fd-movie__rating-runtime');
+                const RatingRuntimeGenre = runElement ? runElement.textContent.trim() : 'N/A';
+            
+
+                //Gets link to image
+                const imageElement = movie.querySelector('img');
                 const image = imageElement ? imageElement.src : 'N/A';
-                movieData.push({ title, link , image });
                 
+                movieData.push({ title , RatingRuntimeGenre, image});
+                
+                //title, link, image,  runtime, rating, genre 
                 
             
             });
@@ -49,6 +55,8 @@ async function scrapeFandango() {
 }
 await scrapeFandango();
 
+
+//TODO: Fix API 
 const app = express();  
 const PORT = 3000;
 
