@@ -1,20 +1,17 @@
 import React, { useState, useEffect } from "react";
 import Loading from "../components/common/Loading.jsx";
-import Moviecard from "../components/common/Moviecard.jsx";
+import { SearchBar } from "../components/common/SearchBar.jsx";
 
 function Home() {
   return (
     <div class="flex flex-col">
-      <h1 class="text-center">Now Playing</h1>
+      <SearchBar />
       <div class="grid grid-cols-6 gap-8 p-8">
-        <Moviecard />
-        <Moviecard />
         <div class="border-2 rounded-md">01</div>
         <div class="border-2 rounded-md">02</div>
         <div class="border-2 rounded-md">03</div>
         <div class="border-2 rounded-md">04</div>
         <div class="border-2 rounded-md">05</div>
-        <Moviecard />
         <div class="border-2 rounded-md">06</div>
       </div>
       <div class="grid grid-cols-4 gap-20 m-8 border-2 p-8">

@@ -26,3 +26,13 @@
     @apply font-semibold;
   }
 }
+
+body {
+  background: #2b1561;
+  background: linear-gradient(
+    90deg,
+    rgba(43, 21, 97, 1) 0%,
+    rgba(71, 46, 153, 1) 35%,
+    rgba(0, 212, 255, 1) 100%
+  );
+}
