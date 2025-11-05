@@ -52,8 +52,8 @@ return movieData;
 //Write to json file 
 const jsonData = JSON.stringify(movies, null, 2);
     try {
-        fs.writeFileSync('output.json', jsonData, 'utf8');
-        console.log('Data successfully written to output.json');
+        fs.writeFileSync('movies.json', jsonData, 'utf8');
+        console.log('Data successfully written to movies.json');
             
     }catch (err) {
         console.error('Error writing file:', err);
@@ -64,24 +64,28 @@ const jsonData = JSON.stringify(movies, null, 2);
         await browser.close();
     }
 }
-await scrapeFandango();
+//await scrapeFandango();
 
 
 
-//TODO: Fix API 
+//API to access movie data 
 const app = express();  
 const PORT = 3000;
 
+app.listen(PORT, () =>{
+    console.log(`Server is listening on port ${PORT}`)
+});
+
+
+app.use(express.static(path.join(process.cwd())));
 app.get('/movies', (req, res) => {
-    const file = path.join(__dirname, 'output.json');
-    if (fs.existsSync(file)) {
-        res.sendFile(file);
-    } else {
-        res.status(404).json({ error: 'No data found yet' });
-    }
+    const filePath = path.join(process.cwd(), 'movies.json');
+    const data = fs.readFileSync(filePath, 'utf8');
+    res.json(JSON.parse(data));
 });
 
-
-app.listen(PORT, ()=> {
-    console.log('Server is running on ${PORT}')
-});
+/*
+The best way to access the data is at 'localhost:3000/movies.json'
+You can also use 'localhost:3000/movies' but the formatting is all messed up so use the one above
+Also a slow internet connection sometimes breaks the scrapping 
+*/
