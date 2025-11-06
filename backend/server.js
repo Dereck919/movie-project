@@ -1,12 +1,12 @@
 import express from "express";
 import cookieParser from "cookie-parser";
-import { createClient } from "@supabase/supabase-js";
 import cors from "cors";
+import { createClient } from "@supabase/supabase-js";
 
 const PORT = process.env.PORT;
-const SUPABASE_URL = process.env.SUPABASE_URL;
-const SUPABASE_ANON_KEY = process.env.SUPABASE_ANON_KEY;
-const supabase = createClient(SUPABASE_URL, SUPABASE_ANON_KEY);
+const supabaseUrl = process.env.SUPABASE_URL;
+const supabaseKey = process.env.SUPABASE_ANON_KEY;
+const supabase = createClient(supabaseUrl, supabaseKey);
 
 const app = express();
 app.use(express.json());
