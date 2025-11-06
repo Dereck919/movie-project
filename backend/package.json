@@ -2,10 +2,11 @@
   "name": "backend",
   "version": "1.0.0",
   "description": "",
-  "main": "scrapper/scrapper.mjs",
+  "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "nodemon scrapper.mjs"
+    "start": "nodemon --env-file=.env server.js",
+    "scrape": "nodemon scrapper/scrapper.mjs"
   },
   "repository": {
     "type": "git",
