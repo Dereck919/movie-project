@@ -7,28 +7,11 @@ function Home() {
   return (
     <div className="flex flex-col">
       <SearchBar />
-      <div className="border-y-2 text-center m-1">
-        <h1>NEW RELEASES</h1>
+      <div className="text-center m-5">
+        <h1 className="text-white">NEW RELEASES</h1>
       </div>
       <MovieCarousel />
-      <div className="grid grid-cols-8 gap-2 m-5">
-        <MovieCard />
-        <MovieCard />
-        <MovieCard />
-        <MovieCard />
-        <MovieCard />
-        <MovieCard />
-        <MovieCard />
-        <MovieCard />
-        <MovieCard />
-        <MovieCard />
-        <MovieCard />
-        <MovieCard />
-        <MovieCard />
-        <MovieCard />
-        <MovieCard />
-        <MovieCard />
-      </div>
+      <div className="grid grid-cols-8 gap-2 justify-items-center"></div>
     </div>
   );
 }

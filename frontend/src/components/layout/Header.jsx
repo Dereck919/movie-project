@@ -36,7 +36,7 @@ function Header() {
         <Link to="/" style={linkStyle}>
           Movies
         </Link>
-        <Link to="#" style={linkStyle}>
+        <Link to="/ticket" style={linkStyle}>
           My Tickets
         </Link>
         <Link to="/login" style={linkStyle}>
