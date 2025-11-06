@@ -1,6 +1,5 @@
 import React, { useState, useEffect } from "react";
-import Loading from "../components/common/Loading.jsx";
-import MovieCard from "../components/common/Moviecard.jsx";
+import MovieCard from "../components/common/MovieCard.jsx";
 
 function Home() {
   return (
