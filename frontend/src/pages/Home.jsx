@@ -1,32 +1,33 @@
 import React, { useState, useEffect } from "react";
-import Loading from "../components/common/Loading.jsx";
 import { SearchBar } from "../components/common/SearchBar.jsx";
+import MovieCard from "../components/common/MovieCard.jsx";
+import MovieCarousel from "../components/common/MovieCarousel.jsx";
 
 function Home() {
   return (
-    <div class="flex flex-col">
+    <div className="flex flex-col">
       <SearchBar />
-      <div class="grid grid-cols-6 gap-8 p-8">
-        <div class="border-2 rounded-md">01</div>
-        <div class="border-2 rounded-md">02</div>
-        <div class="border-2 rounded-md">03</div>
-        <div class="border-2 rounded-md">04</div>
-        <div class="border-2 rounded-md">05</div>
-        <div class="border-2 rounded-md">06</div>
+      <div className="border-y-2 text-center m-1">
+        <h1>NEW RELEASES</h1>
       </div>
-      <div class="grid grid-cols-4 gap-20 m-8 border-2 p-8">
-        <div class="border-2 rounded-md">Movie 01</div>
-        <div class="border-2 rounded-md">Movie 02</div>
-        <div class="border-2 rounded-md">Movie 03</div>
-        <div class="border-2 rounded-md">Movie 04</div>
-        <div class="border-2 rounded-md">Movie 05</div>
-        <div class="border-2 rounded-md">Movie 06</div>
-        <div class="border-2 rounded-md">Movie 01</div>
-        <div class="border-2 rounded-md">Movie 02</div>
-        <div class="border-2 rounded-md">Movie 03</div>
-        <div class="border-2 rounded-md">Movie 04</div>
-        <div class="border-2 rounded-md">Movie 05</div>
-        <div class="border-2 rounded-md">Movie 06</div>
+      <MovieCarousel />
+      <div className="grid grid-cols-8 gap-2 m-5">
+        <MovieCard />
+        <MovieCard />
+        <MovieCard />
+        <MovieCard />
+        <MovieCard />
+        <MovieCard />
+        <MovieCard />
+        <MovieCard />
+        <MovieCard />
+        <MovieCard />
+        <MovieCard />
+        <MovieCard />
+        <MovieCard />
+        <MovieCard />
+        <MovieCard />
+        <MovieCard />
       </div>
     </div>
   );
