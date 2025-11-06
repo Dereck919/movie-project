@@ -8,7 +8,6 @@ function MovieCard(props) {
     const image = "placeholder image";
     const runtime = "1 HR 40 MIN";
     const rating = "R";
-    const genre = "Fantasy";
 
   return (
     // html and tailwind stuff
@@ -18,7 +17,6 @@ function MovieCard(props) {
         <div class="p-3">
           <h2 class="text-lg text-white font-bold">{title}</h2>
           <p class="text-sm text-white">{runtime} | {rating}</p>
-          <p class="text-sm text-white">{genre}</p>
         </div>
       </div>
     </div>
