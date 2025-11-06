@@ -1,7 +1,7 @@
 import React from "react";
 
 const footerStyle = {
-  backgroundColor: "#333",
+  backgroundColor: "#000",
   color: "#fff",
   padding: "1rem",
   textAlign: "center",
@@ -14,7 +14,7 @@ const footerStyle = {
 function Footer() {
   return (
     <footer style={footerStyle}>
-      <p>&copy; 2025 Smart Movie Ticketing System</p>
+      <p>&copy; ANC Moives</p>
     </footer>
   );
 }
