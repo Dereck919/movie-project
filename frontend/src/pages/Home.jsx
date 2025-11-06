@@ -28,7 +28,6 @@ function Home() {
         <div class="border-2 rounded-md">Movie 05</div>
         <div class="border-2 rounded-md">Movie 06</div>
       </div>
-      <Loading />
     </div>
   );
 }
