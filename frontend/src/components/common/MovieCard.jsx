@@ -1,40 +1,23 @@
 import React from "react";
 
 function MovieCard(props) {
-<<<<<<< HEAD
-    // js stuff / react 
-
-    const title = "Chainsaw Man";
-    const link = "placeholder link";
-    const image = "placeholder image";
-    const runtime = "1 HR 40 MIN";
-    const rating = "R";
-=======
-  const title = "Chainsaw Man";
-  const link = "placeholder link";
-  const image = "placeholder image";
-  const runtime = "1 HR 40 MIN";
-  const rating = "R";
-  const genre = "Fantasy";
->>>>>>> homepage
+  const { title, link, image, runtime, rating } = props;
 
   return (
-    <div class="mx-auto my-5">
-      <div class="bg-black">
+    <div className="mx-auto my-5">
+      <div className="bg-black">
         <img
-          src="https://amc-theatres-res.cloudinary.com/image/upload/c_limit,w_272/f_auto/q_auto/v1757961476/amc-cdn/production/2/movies/79900/79902/PosterDynamic/173099.jpg"
+          src={image}
           alt="movie poster"
+          className="border-b-8 border-white"
         />
-        <div class="p-3">
-          <h2 class="text-lg text-white font-bold">{title}</h2>
-<<<<<<< HEAD
-          <p class="text-sm text-white">{runtime} | {rating}</p>
-=======
-          <p class="text-sm text-white">
+        <div className="p-3 h-28">
+          <h2 className="lg:text-lg md:text-xs sm:text-xs text-white font-bold">
+            {title}
+          </h2>
+          <p className="text-sm text-white">
             {runtime} | {rating}
           </p>
-          <p class="text-sm text-white">{genre}</p>
->>>>>>> homepage
         </div>
       </div>
     </div>

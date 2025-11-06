@@ -4,21 +4,16 @@ import { FaSearch } from "react-icons/fa";
 export const SearchBar = () => {
   const [input, setInput] = useState("");
 
-  const handleChange = (value) => {
-    setInput(value);
-    fetchData(value);
-  };
-
   return (
-    <div class="flex 1 p-2 justify-center w-full h-10 px-[15px] shadow-xl border">
+    <div className="flex 1 p-2 justify-center w-full h-10 px-[15px] shadow-xl border-white">
       <input
-        class="rounded-md h-full w-full text-[0.75rem] outline-hidden"
+        className="rounded-md h-full w-full text-[0.75rem] outline-hidden text-white"
         placeholder="Type to search..."
         value={input}
-        onChange={(e) => handleChange(e.target.value)}
+        onChange={(e) => setInput(e.target.value)}
       />
-      <button>
-        <FaSearch id="search-icon" />
+      <button onClick={console.log(input)} className="cursor-pointer">
+        <FaSearch id="search-icon" className="text-white hover:scale-110" />
       </button>
     </div>
   );
