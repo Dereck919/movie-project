@@ -1,1624 +1,878 @@
 [
   {
-    "title": "Blue Moon (2025)",
-    "rating": "R",
-    "runtime": "1 hr 40 min",
-    "genre": [
-      "Biography",
-      "Comedy",
-      "Drama",
-      "Music/Performing Arts",
-      "Romance"
-    ],
-    "image": "https://images.fandango.com/ImageRenderer/200/0/redesign/static/img/default_poster--dark-mode.png/0/images/MasterRepository/fandango/241629/SONY-BMMI-04_DigitalPoster_1934x2866.jpg"
-  },
-  {
-    "title": "Bugonia (2025)",
-    "rating": "R",
-    "runtime": "1 hr 58 min",
-    "genre": [
-      "Comedy",
-      "Mystery & Thriller",
-      "Sci-Fi/Fantasy"
-    ],
-    "image": "https://images.fandango.com/ImageRenderer/200/0/redesign/static/img/default_poster--dark-mode.png/0/images/MasterRepository/fandango/236951/Bugonia_OfficialPoster.jpg"
-  },
-  {
-    "title": "Springsteen: Deliver Me from Nowhere (2025)",
-    "rating": "PG-13",
-    "runtime": "N/A",
-    "genre": [
-      "Runtime: 2 hr Biography",
-      "Drama",
-      "Music/Performing Arts"
-    ],
-    "image": "https://images.fandango.com/ImageRenderer/200/0/redesign/static/img/default_poster--dark-mode.png/0/images/MasterRepository/fandango/241178/795F_HUSKER_KA_W3.2_FN_Mech4.jpg"
-  },
-  {
-    "title": "Good Fortune (2025)",
-    "rating": "R",
-    "runtime": "1 hr 38 min",
-    "genre": [
-      "Action/Adventure",
-      "Comedy",
-      "Drama"
-    ],
-    "image": "https://images.fandango.com/ImageRenderer/200/0/redesign/static/img/default_poster--dark-mode.png/0/images/MasterRepository/fandango/240873/GF_2025x3000_ONLINE_1SHT_MAIN_V3.jpg"
-  },
-  {
     "title": "Double Feature: Hallow Road / Vincent Must Die",
-    "rating": "Drama",
     "runtime": "N/A",
-    "genre": [
-      "Mystery & Thriller"
-    ],
+    "rating": "Not Rated",
     "image": "https://images.fandango.com/ImageRenderer/200/0/redesign/static/img/default_poster--dark-mode.png/0/images/MasterRepository/fandango/242351/HalloweenDoubleFeaturePoster-Final.jpg"
   },
   {
-    "title": "Baahubali: The Epic (2025)",
-    "rating": "Runtime",
+    "title": "Mary J. Blige: For My Fans (2025)",
     "runtime": "N/A",
-    "genre": [
-      ": 3 hr 58 min Action/Adventure",
-      "Drama",
-      "Historical Film"
-    ],
+    "rating": "Not Rated",
+    "image": "https://images.fandango.com/ImageRenderer/200/0/redesign/static/img/default_poster--dark-mode.png/0/images/MasterRepository/fandango/242721/MJB-One-Sheet-27X40.jpg"
+  },
+  {
+    "title": "Predator: Badlands Early Access Screening (2025)",
+    "runtime": "1 hr 47 min",
+    "rating": "PG13",
+    "image": "https://images.fandango.com/ImageRenderer/200/0/redesign/static/img/default_poster--dark-mode.png/0/images/MasterRepository/fandango/242816/predatorbadlandsEA_presale.jpg"
+  },
+  {
+    "title": "Prey | Predator: Badlands Double Feature (2025)",
+    "runtime": "N/A",
+    "rating": "Not Rated",
+    "image": "https://images.fandango.com/ImageRenderer/200/0/redesign/static/img/default_poster--dark-mode.png/0/images/MasterRepository/fandango/242820/prey_predator_pre-sale.jpg"
+  },
+  {
+    "title": "Rocky IV: Rocky vs. Drago - The Director's Cut",
+    "runtime": "1 hr 39 min",
+    "rating": "PG13",
+    "image": "https://images.fandango.com/ImageRenderer/200/0/redesign/static/img/default_poster--dark-mode.png/0/images/MasterRepository/fandango/240193/Ticketing_Rocky%20IV.jpg"
+  },
+  {
+    "title": "Baahubali: The Epic (2025)",
+    "runtime": "3 hr 58 min",
+    "rating": "Not Rated",
     "image": "https://images.fandango.com/ImageRenderer/200/0/redesign/static/img/default_poster--dark-mode.png/0/images/MasterRepository/fandango/241842/BAAHUBALI-THE-EPIC_FinalKeyArt_1080x1595.jpg"
   },
   {
     "title": "Back to the Future: 40th Anniversary (2025)",
-    "rating": "PG",
     "runtime": "1 hr 56 min",
-    "genre": [
-      "Comedy",
-      "Concert/Special Events"
-    ],
+    "rating": "PG",
     "image": "https://images.fandango.com/ImageRenderer/200/0/redesign/static/img/default_poster--dark-mode.png/0/images/MasterRepository/fandango/241898/backtothefuture-posterart.jpg"
   },
   {
     "title": "Self-Help (2025)",
-    "rating": "R",
     "runtime": "1 hr 25 min",
-    "genre": [
-      "Horror",
-      "Mystery & Thriller",
-      "Suspense/Thriller"
-    ],
-    "image": "https://images.fandango.com/ImageRenderer/200/0/redesign/static/img/default_poster--dark-mode.png/0/images/MasterRepository/fandango/242828/Self-Help-One-Sheet-TAGGED.jpg"
-  },
-  {
-    "title": "Violent Ends (2025)",
     "rating": "R",
-    "runtime": "1 hr 52 min",
-    "genre": [
-      "Drama",
-      "Mystery & Thriller",
-      "Suspense/Thriller"
-    ],
-    "image": "https://images.fandango.com/ImageRenderer/200/0/redesign/static/img/default_poster--dark-mode.png/0/images/MasterRepository/fandango/242886/violetends.jpg"
-  },
-  {
-    "title": "The Twilight Saga: New Moon (2025)",
-    "rating": "Runtime",
-    "runtime": "N/A",
-    "genre": [
-      ": 2 hr 15 min"
-    ],
-    "image": "https://images.fandango.com/ImageRenderer/200/0/redesign/static/img/default_poster--dark-mode.png/0/images/MasterRepository/fandango/241673/1000x1480_TwilightNewMoon_Ticketing-WebThumb_Exhib_jpg.jpg"
-  },
-  {
-    "title": "Anniversary (2025)",
-    "rating": "R",
-    "runtime": "1 hr 51 min",
-    "genre": [
-      "Mystery & Thriller",
-      "Suspense/Thriller"
-    ],
-    "image": "https://images.fandango.com/ImageRenderer/200/0/redesign/static/img/default_poster--dark-mode.png/0/images/MasterRepository/fandango/242080/Anniversary_2025_poster.jpg"
-  },
-  {
-    "title": "Stitch Head (2025)",
-    "rating": "PG",
-    "runtime": "1 hr 29 min",
-    "genre": [
-      "Animated",
-      "Animation",
-      "Comedy",
-      "Family",
-      "Kids & Family",
-      "Sci-Fi/Fantasy"
-    ],
-    "image": "https://images.fandango.com/ImageRenderer/200/0/redesign/static/img/default_poster--dark-mode.png/0/images/MasterRepository/fandango/242743/stitchhead.jpg"
-  },
-  {
-    "title": "ParaNorman (Remastered)",
-    "rating": "Runtime",
-    "runtime": "N/A",
-    "genre": [
-      ": 1 hr 36 min"
-    ],
-    "image": "https://images.fandango.com/ImageRenderer/200/0/redesign/static/img/default_poster--dark-mode.png/0/images/MasterRepository/fandango/241801/1000x1480_ParaNorman_Exhibitor%20Poster.jpg"
-  },
-  {
-    "title": "Bugonia (2025)",
-    "rating": "R",
-    "runtime": "1 hr 58 min",
-    "genre": [
-      "Comedy",
-      "Mystery & Thriller",
-      "Sci-Fi/Fantasy"
-    ],
-    "image": "https://images.fandango.com/ImageRenderer/200/0/redesign/static/img/default_poster--dark-mode.png/0/images/MasterRepository/fandango/236951/Bugonia_OfficialPoster.jpg"
-  },
-  {
-    "title": "Chainsaw Man - The Movie: Reze Arc (2025)",
-    "rating": "R",
-    "runtime": "1 hr 40 min",
-    "genre": [
-      "Action/Adventure",
-      "Animated",
-      "Anime",
-      "Sci-Fi/Fantasy"
-    ],
-    "image": "https://images.fandango.com/ImageRenderer/200/0/redesign/static/img/default_poster--dark-mode.png/0/images/MasterRepository/fandango/241288/chainsawman_final.jpg"
-  },
-  {
-    "title": "Last Days (2025)",
-    "rating": "PG-13",
-    "runtime": "2 hr 4 min",
-    "genre": [
-      "Action/Adventure",
-      "Drama"
-    ],
-    "image": "https://images.fandango.com/ImageRenderer/200/0/redesign/static/img/default_poster--dark-mode.png/0/images/MasterRepository/fandango/241506/Last_Days_2025_poster.jpg"
-  },
-  {
-    "title": "Regretting You (2025)",
-    "rating": "PG-13",
-    "runtime": "1 hr 57 min",
-    "genre": [
-      "Drama",
-      "Romance"
-    ],
-    "image": "https://images.fandango.com/ImageRenderer/200/0/redesign/static/img/default_poster--dark-mode.png/0/images/MasterRepository/fandango/241735/RY_DOM_Online_Teaser_1-Sheet_06_FIN4.jpg"
-  },
-  {
-    "title": "Shelby Oaks (2025)",
-    "rating": "R",
-    "runtime": "1 hr 39 min",
-    "genre": [
-      "Horror",
-      "Mystery & Thriller",
-      "Suspense/Thriller"
-    ],
-    "image": "https://images.fandango.com/ImageRenderer/200/0/redesign/static/img/default_poster--dark-mode.png/0/images/MasterRepository/fandango/241731/SHELBY-OAKS-MattressPoster.jpg"
-  },
-  {
-    "title": "Springsteen: Deliver Me from Nowhere (2025)",
-    "rating": "PG-13",
-    "runtime": "N/A",
-    "genre": [
-      "Runtime: 2 hr Biography",
-      "Drama",
-      "Music/Performing Arts"
-    ],
-    "image": "https://images.fandango.com/ImageRenderer/200/0/redesign/static/img/default_poster--dark-mode.png/0/images/MasterRepository/fandango/241178/795F_HUSKER_KA_W3.2_FN_Mech4.jpg"
-  },
-  {
-    "title": "Black Phone 2 (2025)",
-    "rating": "R",
-    "runtime": "1 hr 54 min",
-    "genre": [
-      "Horror",
-      "Mystery & Thriller"
-    ],
-    "image": "https://images.fandango.com/ImageRenderer/200/0/redesign/static/img/default_poster--dark-mode.png/0/images/MasterRepository/fandango/240922/BP2_Teaser1Sheet6_RGB_1.jpg"
-  },
-  {
-    "title": "Good Fortune (2025)",
-    "rating": "R",
-    "runtime": "1 hr 38 min",
-    "genre": [
-      "Action/Adventure",
-      "Comedy",
-      "Drama"
-    ],
-    "image": "https://images.fandango.com/ImageRenderer/200/0/redesign/static/img/default_poster--dark-mode.png/0/images/MasterRepository/fandango/240873/GF_2025x3000_ONLINE_1SHT_MAIN_V3.jpg"
-  },
-  {
-    "title": "Truth & Treason (2025)",
-    "rating": "PG-13",
-    "runtime": "N/A",
-    "genre": [
-      "Runtime: 2 hr Drama",
-      "Historical Film",
-      "Mystery & Thriller"
-    ],
-    "image": "https://images.fandango.com/ImageRenderer/200/0/redesign/static/img/default_poster--dark-mode.png/0/images/MasterRepository/fandango/240281/TruthandTreason-OfficialKeyArt-Digital-fixedrating.jpg"
-  },
-  {
-    "title": "It Was Just an Accident (2025)",
-    "rating": "PG-13",
-    "runtime": "1 hr 45 min",
-    "genre": [
-      "Action/Adventure",
-      "Drama",
-      "Mystery & Thriller",
-      "Suspense/Thriller"
-    ],
-    "image": "https://images.fandango.com/ImageRenderer/200/0/redesign/static/img/default_poster--dark-mode.png/0/images/MasterRepository/fandango/242732/itwasjustanaccident.jpg"
-  },
-  {
-    "title": "Quezon (2025)",
-    "rating": "Runtime",
-    "runtime": "N/A",
-    "genre": [
-      ": 2 hr 15 min Biography",
-      "Drama",
-      "Historical Film"
-    ],
-    "image": "https://images.fandango.com/ImageRenderer/200/0/redesign/static/img/default_poster--dark-mode.png/0/images/MasterRepository/fandango/243049/quezon.jpg"
-  },
-  {
-    "title": "Roofman (2025)",
-    "rating": "R",
-    "runtime": "2 hr 6 min",
-    "genre": [
-      "Comedy",
-      "Drama",
-      "Suspense/Thriller"
-    ],
-    "image": "https://images.fandango.com/ImageRenderer/200/0/redesign/static/img/default_poster--dark-mode.png/0/images/MasterRepository/fandango/241183/Roofman_DOM_Online_Teaser_1-Sheet_08-FIN5.jpg"
-  },
-  {
-    "title": "Tron: Ares (2025)",
-    "rating": "PG-13",
-    "runtime": "1 hr 59 min",
-    "genre": [
-      "Action/Adventure",
-      "Sci-Fi/Fantasy"
-    ],
-    "image": "https://images.fandango.com/ImageRenderer/200/0/redesign/static/img/default_poster--dark-mode.png/0/images/MasterRepository/fandango/240243/VELCRO_KA_DIGITAL_1SHT_TOS_sRGB_V10.jpg"
-  },
-  {
-    "title": "Gabby's Dollhouse: The Movie (2025)",
-    "rating": "G",
-    "runtime": "1 hr 25 min",
-    "genre": [
-      "Action/Adventure",
-      "Animation",
-      "Comedy",
-      "Family",
-      "Kids & Family"
-    ],
-    "image": "https://images.fandango.com/ImageRenderer/200/0/redesign/static/img/default_poster--dark-mode.png/0/images/MasterRepository/fandango/240731/gabbysdollhouse-posterart.jpg"
-  },
-  {
-    "title": "One Battle After Another (2025)",
-    "rating": "R",
-    "runtime": "2 hr 42 min",
-    "genre": [
-      "Action/Adventure",
-      "Comedy",
-      "Drama",
-      "Mystery & Thriller"
-    ],
-    "image": "https://images.fandango.com/ImageRenderer/200/0/redesign/static/img/default_poster--dark-mode.png/0/images/MasterRepository/fandango/241516/OBAA_VERT_MAIN_2764x4096_DOM.jpg"
-  },
-  {
-    "title": "The Strangers: Chapter 2 (2025)",
-    "rating": "R",
-    "runtime": "1 hr 36 min",
-    "genre": [
-      "Horror",
-      "Mystery & Thriller"
-    ],
-    "image": "https://images.fandango.com/ImageRenderer/200/0/redesign/static/img/default_poster--dark-mode.png/0/images/MasterRepository/fandango/241170/the-strangers-chapter-2-THE-STRANGERS-1sht_rgb.jpg"
-  },
-  {
-    "title": "Demon Slayer: Kimetsu no Yaiba Infinity Castle (2025)",
-    "rating": "R",
-    "runtime": "2 hr 35 min",
-    "genre": [
-      "Action/Adventure",
-      "Animated",
-      "Anime",
-      "Sci-Fi/Fantasy"
-    ],
-    "image": "https://images.fandango.com/ImageRenderer/200/0/redesign/static/img/default_poster--dark-mode.png/0/images/MasterRepository/fandango/239732/DSIC_DateAnnouncement_KV_2x3_V2.jpg"
-  },
-  {
-    "title": "Double Feature: Hallow Road / Vincent Must Die",
-    "rating": "Drama",
-    "runtime": "N/A",
-    "genre": [
-      "Mystery & Thriller"
-    ],
-    "image": "https://images.fandango.com/ImageRenderer/200/0/redesign/static/img/default_poster--dark-mode.png/0/images/MasterRepository/fandango/242351/HalloweenDoubleFeaturePoster-Final.jpg"
-  },
-  {
-    "title": "The Twilight Saga: Breaking Dawn Part 1 (2025)",
-    "rating": "PG-13",
-    "runtime": "1 hr 57 min",
-    "genre": [
-      "Concert/Special Events",
-      "Romance",
-      "Sci-Fi/Fantasy"
-    ],
-    "image": "https://images.fandango.com/ImageRenderer/200/0/redesign/static/img/default_poster--dark-mode.png/0/images/MasterRepository/fandango/241675/1000x1480_TwilightBreakingDawnPt1_Ticketing-WebThumb_Exhib_jpg.jpg"
-  },
-  {
-    "title": "The Twilight Saga: Breaking Dawn Part 2 (2025)",
-    "rating": "Runtime",
-    "runtime": "N/A",
-    "genre": [
-      ": 1 hr 55 min"
-    ],
-    "image": "https://images.fandango.com/ImageRenderer/200/0/redesign/static/img/default_poster--dark-mode.png/0/images/MasterRepository/fandango/241676/1000x1480_TwilightBreakingDawnPt2_Ticketing-WebThumb_Exhib_jpg.jpg"
-  },
-  {
-    "title": "Back to the Future: 40th Anniversary (2025)",
-    "rating": "PG",
-    "runtime": "1 hr 56 min",
-    "genre": [
-      "Comedy",
-      "Concert/Special Events"
-    ],
-    "image": "https://images.fandango.com/ImageRenderer/200/0/redesign/static/img/default_poster--dark-mode.png/0/images/MasterRepository/fandango/241898/backtothefuture-posterart.jpg"
-  },
-  {
-    "title": "Self-Help (2025)",
-    "rating": "R",
-    "runtime": "1 hr 25 min",
-    "genre": [
-      "Horror",
-      "Mystery & Thriller",
-      "Suspense/Thriller"
-    ],
     "image": "https://images.fandango.com/ImageRenderer/200/0/redesign/static/img/default_poster--dark-mode.png/0/images/MasterRepository/fandango/242828/Self-Help-One-Sheet-TAGGED.jpg"
   },
   {
     "title": "The Twilight Saga: Eclipse (2025)",
-    "rating": "PG-13",
     "runtime": "1 hr 35 min",
-    "genre": [
-      "Concert/Special Events",
-      "Romance",
-      "Sci-Fi/Fantasy"
-    ],
+    "rating": "PG13",
     "image": "https://images.fandango.com/ImageRenderer/200/0/redesign/static/img/default_poster--dark-mode.png/0/images/MasterRepository/fandango/241674/1000x1480_TwilightEclipse_Ticketing-WebThumb_Exhib.jpg"
   },
   {
     "title": "Violent Ends (2025)",
-    "rating": "R",
     "runtime": "1 hr 52 min",
-    "genre": [
-      "Drama",
-      "Mystery & Thriller",
-      "Suspense/Thriller"
-    ],
+    "rating": "R",
     "image": "https://images.fandango.com/ImageRenderer/200/0/redesign/static/img/default_poster--dark-mode.png/0/images/MasterRepository/fandango/242886/violetends.jpg"
   },
   {
-    "title": "The Twilight Saga: New Moon (2025)",
-    "rating": "Runtime",
-    "runtime": "N/A",
-    "genre": [
-      ": 2 hr 15 min"
-    ],
-    "image": "https://images.fandango.com/ImageRenderer/200/0/redesign/static/img/default_poster--dark-mode.png/0/images/MasterRepository/fandango/241673/1000x1480_TwilightNewMoon_Ticketing-WebThumb_Exhib_jpg.jpg"
-  },
-  {
-    "title": "Anniversary (2025)",
-    "rating": "R",
-    "runtime": "1 hr 51 min",
-    "genre": [
-      "Mystery & Thriller",
-      "Suspense/Thriller"
-    ],
-    "image": "https://images.fandango.com/ImageRenderer/200/0/redesign/static/img/default_poster--dark-mode.png/0/images/MasterRepository/fandango/242080/Anniversary_2025_poster.jpg"
-  },
-  {
-    "title": "Stitch Head (2025)",
-    "rating": "PG",
-    "runtime": "1 hr 29 min",
-    "genre": [
-      "Animated",
-      "Animation",
-      "Comedy",
-      "Family",
-      "Kids & Family",
-      "Sci-Fi/Fantasy"
-    ],
-    "image": "https://images.fandango.com/ImageRenderer/200/0/redesign/static/img/default_poster--dark-mode.png/0/images/MasterRepository/fandango/242743/stitchhead.jpg"
-  },
-  {
-    "title": "Twilight (2025)",
-    "rating": "PG-13",
-    "runtime": "2 hr 7 min",
-    "genre": [
-      "Concert/Special Events",
-      "Romance",
-      "Sci-Fi/Fantasy"
-    ],
-    "image": "https://images.fandango.com/ImageRenderer/200/0/redesign/static/img/default_poster--dark-mode.png/0/images/MasterRepository/fandango/241672/1000x1480_Twilight_Ticketing-WebThumb_Exhib.jpg"
-  },
-  {
-    "title": "ParaNorman (Remastered)",
-    "rating": "Runtime",
-    "runtime": "N/A",
-    "genre": [
-      ": 1 hr 36 min"
-    ],
-    "image": "https://images.fandango.com/ImageRenderer/200/0/redesign/static/img/default_poster--dark-mode.png/0/images/MasterRepository/fandango/241801/1000x1480_ParaNorman_Exhibitor%20Poster.jpg"
-  },
-  {
-    "title": "Blue Moon (2025)",
-    "rating": "R",
-    "runtime": "1 hr 40 min",
-    "genre": [
-      "Biography",
-      "Comedy",
-      "Drama",
-      "Music/Performing Arts",
-      "Romance"
-    ],
-    "image": "https://images.fandango.com/ImageRenderer/200/0/redesign/static/img/default_poster--dark-mode.png/0/images/MasterRepository/fandango/241629/SONY-BMMI-04_DigitalPoster_1934x2866.jpg"
-  },
-  {
-    "title": "Bugonia (2025)",
-    "rating": "R",
-    "runtime": "1 hr 58 min",
-    "genre": [
-      "Comedy",
-      "Mystery & Thriller",
-      "Sci-Fi/Fantasy"
-    ],
-    "image": "https://images.fandango.com/ImageRenderer/200/0/redesign/static/img/default_poster--dark-mode.png/0/images/MasterRepository/fandango/236951/Bugonia_OfficialPoster.jpg"
-  },
-  {
-    "title": "Chainsaw Man - The Movie: Reze Arc (2025)",
-    "rating": "R",
-    "runtime": "1 hr 40 min",
-    "genre": [
-      "Action/Adventure",
-      "Animated",
-      "Anime",
-      "Sci-Fi/Fantasy"
-    ],
-    "image": "https://images.fandango.com/ImageRenderer/200/0/redesign/static/img/default_poster--dark-mode.png/0/images/MasterRepository/fandango/241288/chainsawman_final.jpg"
-  },
-  {
-    "title": "Regretting You (2025)",
-    "rating": "PG-13",
-    "runtime": "1 hr 57 min",
-    "genre": [
-      "Drama",
-      "Romance"
-    ],
-    "image": "https://images.fandango.com/ImageRenderer/200/0/redesign/static/img/default_poster--dark-mode.png/0/images/MasterRepository/fandango/241735/RY_DOM_Online_Teaser_1-Sheet_06_FIN4.jpg"
-  },
-  {
-    "title": "Shelby Oaks (2025)",
-    "rating": "R",
-    "runtime": "1 hr 39 min",
-    "genre": [
-      "Horror",
-      "Mystery & Thriller",
-      "Suspense/Thriller"
-    ],
-    "image": "https://images.fandango.com/ImageRenderer/200/0/redesign/static/img/default_poster--dark-mode.png/0/images/MasterRepository/fandango/241731/SHELBY-OAKS-MattressPoster.jpg"
-  },
-  {
-    "title": "Springsteen: Deliver Me from Nowhere (2025)",
-    "rating": "PG-13",
-    "runtime": "N/A",
-    "genre": [
-      "Runtime: 2 hr Biography",
-      "Drama",
-      "Music/Performing Arts"
-    ],
-    "image": "https://images.fandango.com/ImageRenderer/200/0/redesign/static/img/default_poster--dark-mode.png/0/images/MasterRepository/fandango/241178/795F_HUSKER_KA_W3.2_FN_Mech4.jpg"
-  },
-  {
-    "title": "Black Phone 2 (2025)",
-    "rating": "R",
-    "runtime": "1 hr 54 min",
-    "genre": [
-      "Horror",
-      "Mystery & Thriller"
-    ],
-    "image": "https://images.fandango.com/ImageRenderer/200/0/redesign/static/img/default_poster--dark-mode.png/0/images/MasterRepository/fandango/240922/BP2_Teaser1Sheet6_RGB_1.jpg"
-  },
-  {
-    "title": "Good Fortune (2025)",
-    "rating": "R",
-    "runtime": "1 hr 38 min",
-    "genre": [
-      "Action/Adventure",
-      "Comedy",
-      "Drama"
-    ],
-    "image": "https://images.fandango.com/ImageRenderer/200/0/redesign/static/img/default_poster--dark-mode.png/0/images/MasterRepository/fandango/240873/GF_2025x3000_ONLINE_1SHT_MAIN_V3.jpg"
-  },
-  {
-    "title": "After the Hunt (2025)",
-    "rating": "R",
-    "runtime": "2 hr 19 min",
-    "genre": [
-      "Drama",
-      "Mystery & Thriller",
-      "Suspense/Thriller"
-    ],
-    "image": "https://images.fandango.com/ImageRenderer/200/0/redesign/static/img/default_poster--dark-mode.png/0/images/MasterRepository/fandango/241429/AFTERTHEHUNT_KA_2765x4096_R31_145_FIN17.jpg"
-  },
-  {
-    "title": "If I Had Legs I'd Kick You (2025)",
-    "rating": "R",
-    "runtime": "1 hr 53 min",
-    "genre": [
-      "Comedy",
-      "Drama",
-      "Mystery & Thriller"
-    ],
-    "image": "https://images.fandango.com/ImageRenderer/200/0/redesign/static/img/default_poster--dark-mode.png/0/images/MasterRepository/fandango/241791/Poster_IFIHADLEGS.jpg"
-  },
-  {
-    "title": "Roofman (2025)",
-    "rating": "R",
-    "runtime": "2 hr 6 min",
-    "genre": [
-      "Comedy",
-      "Drama",
-      "Suspense/Thriller"
-    ],
-    "image": "https://images.fandango.com/ImageRenderer/200/0/redesign/static/img/default_poster--dark-mode.png/0/images/MasterRepository/fandango/241183/Roofman_DOM_Online_Teaser_1-Sheet_08-FIN5.jpg"
-  },
-  {
-    "title": "Tron: Ares (2025)",
-    "rating": "PG-13",
-    "runtime": "1 hr 59 min",
-    "genre": [
-      "Action/Adventure",
-      "Sci-Fi/Fantasy"
-    ],
-    "image": "https://images.fandango.com/ImageRenderer/200/0/redesign/static/img/default_poster--dark-mode.png/0/images/MasterRepository/fandango/240243/VELCRO_KA_DIGITAL_1SHT_TOS_sRGB_V10.jpg"
-  },
-  {
-    "title": "Good Boy (2025)",
-    "rating": "PG-13",
-    "runtime": "1 hr 12 min",
-    "genre": [
-      "Comedy",
-      "Horror",
-      "Mystery & Thriller",
-      "Suspense/Thriller"
-    ],
-    "image": "https://images.fandango.com/ImageRenderer/200/0/redesign/static/img/default_poster--dark-mode.png/0/images/MasterRepository/fandango/242202/goodboy.jpg"
-  },
-  {
-    "title": "One Battle After Another (2025)",
-    "rating": "R",
-    "runtime": "2 hr 42 min",
-    "genre": [
-      "Action/Adventure",
-      "Comedy",
-      "Drama",
-      "Mystery & Thriller"
-    ],
-    "image": "https://images.fandango.com/ImageRenderer/200/0/redesign/static/img/default_poster--dark-mode.png/0/images/MasterRepository/fandango/241516/OBAA_VERT_MAIN_2764x4096_DOM.jpg"
-  },
-  {
-    "title": "The Strangers: Chapter 2 (2025)",
-    "rating": "R",
-    "runtime": "1 hr 36 min",
-    "genre": [
-      "Horror",
-      "Mystery & Thriller"
-    ],
-    "image": "https://images.fandango.com/ImageRenderer/200/0/redesign/static/img/default_poster--dark-mode.png/0/images/MasterRepository/fandango/241170/the-strangers-chapter-2-THE-STRANGERS-1sht_rgb.jpg"
-  },
-  {
-    "title": "Demon Slayer: Kimetsu no Yaiba Infinity Castle (2025)",
-    "rating": "R",
-    "runtime": "2 hr 35 min",
-    "genre": [
-      "Action/Adventure",
-      "Animated",
-      "Anime",
-      "Sci-Fi/Fantasy"
-    ],
-    "image": "https://images.fandango.com/ImageRenderer/200/0/redesign/static/img/default_poster--dark-mode.png/0/images/MasterRepository/fandango/239732/DSIC_DateAnnouncement_KV_2x3_V2.jpg"
-  },
-  {
-    "title": "The Conjuring: Last Rites (2025)",
-    "rating": "R",
-    "runtime": "2 hr 15 min",
-    "genre": [
-      "Horror",
-      "Mystery & Thriller",
-      "Suspense/Thriller"
-    ],
-    "image": "https://images.fandango.com/ImageRenderer/200/0/redesign/static/img/default_poster--dark-mode.png/0/images/MasterRepository/fandango/240617/CJRLR_VERT_MAIN_2764x4096_DOM.jpg"
-  },
-  {
-    "title": "Bugonia (2025)",
-    "rating": "R",
-    "runtime": "1 hr 58 min",
-    "genre": [
-      "Comedy",
-      "Mystery & Thriller",
-      "Sci-Fi/Fantasy"
-    ],
-    "image": "https://images.fandango.com/ImageRenderer/200/0/redesign/static/img/default_poster--dark-mode.png/0/images/MasterRepository/fandango/236951/Bugonia_OfficialPoster.jpg"
-  },
-  {
-    "title": "Regretting You (2025)",
-    "rating": "PG-13",
-    "runtime": "1 hr 57 min",
-    "genre": [
-      "Drama",
-      "Romance"
-    ],
-    "image": "https://images.fandango.com/ImageRenderer/200/0/redesign/static/img/default_poster--dark-mode.png/0/images/MasterRepository/fandango/241735/RY_DOM_Online_Teaser_1-Sheet_06_FIN4.jpg"
-  },
-  {
-    "title": "Springsteen: Deliver Me from Nowhere (2025)",
-    "rating": "PG-13",
-    "runtime": "N/A",
-    "genre": [
-      "Runtime: 2 hr Biography",
-      "Drama",
-      "Music/Performing Arts"
-    ],
-    "image": "https://images.fandango.com/ImageRenderer/200/0/redesign/static/img/default_poster--dark-mode.png/0/images/MasterRepository/fandango/241178/795F_HUSKER_KA_W3.2_FN_Mech4.jpg"
-  },
-  {
-    "title": "Black Phone 2 (2025)",
-    "rating": "R",
-    "runtime": "1 hr 54 min",
-    "genre": [
-      "Horror",
-      "Mystery & Thriller"
-    ],
-    "image": "https://images.fandango.com/ImageRenderer/200/0/redesign/static/img/default_poster--dark-mode.png/0/images/MasterRepository/fandango/240922/BP2_Teaser1Sheet6_RGB_1.jpg"
-  },
-  {
-    "title": "Frankenstein (2025)",
-    "rating": "R",
-    "runtime": "2 hr 29 min",
-    "genre": [
-      "Drama",
-      "Horror",
-      "Sci-Fi/Fantasy"
-    ],
-    "image": "https://images.fandango.com/ImageRenderer/200/0/redesign/static/img/default_poster--dark-mode.png/0/images/MasterRepository/fandango/242511/EN-US_FRNK_Teaser_Creator_LabBack_UBA_sRGB_PRE_filmnation.jpg"
-  },
-  {
-    "title": "Tron: Ares (2025)",
-    "rating": "PG-13",
-    "runtime": "1 hr 59 min",
-    "genre": [
-      "Action/Adventure",
-      "Sci-Fi/Fantasy"
-    ],
-    "image": "https://images.fandango.com/ImageRenderer/200/0/redesign/static/img/default_poster--dark-mode.png/0/images/MasterRepository/fandango/240243/VELCRO_KA_DIGITAL_1SHT_TOS_sRGB_V10.jpg"
-  },
-  {
-    "title": "One Battle After Another (2025)",
-    "rating": "R",
-    "runtime": "2 hr 42 min",
-    "genre": [
-      "Action/Adventure",
-      "Comedy",
-      "Drama",
-      "Mystery & Thriller"
-    ],
-    "image": "https://images.fandango.com/ImageRenderer/200/0/redesign/static/img/default_poster--dark-mode.png/0/images/MasterRepository/fandango/241516/OBAA_VERT_MAIN_2764x4096_DOM.jpg"
-  },
-  {
-    "title": "Double Feature: Hallow Road / Vincent Must Die",
-    "rating": "Drama",
-    "runtime": "N/A",
-    "genre": [
-      "Mystery & Thriller"
-    ],
-    "image": "https://images.fandango.com/ImageRenderer/200/0/redesign/static/img/default_poster--dark-mode.png/0/images/MasterRepository/fandango/242351/HalloweenDoubleFeaturePoster-Final.jpg"
-  },
-  {
-    "title": "Back to the Future: 40th Anniversary (2025)",
-    "rating": "PG",
-    "runtime": "1 hr 56 min",
-    "genre": [
-      "Comedy",
-      "Concert/Special Events"
-    ],
-    "image": "https://images.fandango.com/ImageRenderer/200/0/redesign/static/img/default_poster--dark-mode.png/0/images/MasterRepository/fandango/241898/backtothefuture-posterart.jpg"
-  },
-  {
     "title": "Sinners IMAX Reissue (2025)",
-    "rating": "R",
     "runtime": "2 hr 17 min",
-    "genre": [
-      "Concert/Special Events",
-      "Drama",
-      "Horror",
-      "Suspense/Thriller"
-    ],
+    "rating": "R",
     "image": "https://images.fandango.com/ImageRenderer/200/0/redesign/static/img/default_poster--dark-mode.png/0/images/MasterRepository/fandango/243038/sinnersimaxposter.jpg"
   },
   {
     "title": "Anniversary (2025)",
-    "rating": "R",
     "runtime": "1 hr 51 min",
-    "genre": [
-      "Mystery & Thriller",
-      "Suspense/Thriller"
-    ],
+    "rating": "R",
     "image": "https://images.fandango.com/ImageRenderer/200/0/redesign/static/img/default_poster--dark-mode.png/0/images/MasterRepository/fandango/242080/Anniversary_2025_poster.jpg"
   },
   {
     "title": "Stitch Head (2025)",
-    "rating": "PG",
     "runtime": "1 hr 29 min",
-    "genre": [
-      "Animated",
-      "Animation",
-      "Comedy",
-      "Family",
-      "Kids & Family",
-      "Sci-Fi/Fantasy"
-    ],
+    "rating": "PG",
     "image": "https://images.fandango.com/ImageRenderer/200/0/redesign/static/img/default_poster--dark-mode.png/0/images/MasterRepository/fandango/242743/stitchhead.jpg"
   },
   {
-    "title": "Bugonia (2025)",
-    "rating": "R",
-    "runtime": "1 hr 58 min",
-    "genre": [
-      "Comedy",
-      "Mystery & Thriller",
-      "Sci-Fi/Fantasy"
-    ],
-    "image": "https://images.fandango.com/ImageRenderer/200/0/redesign/static/img/default_poster--dark-mode.png/0/images/MasterRepository/fandango/236951/Bugonia_OfficialPoster.jpg"
-  },
-  {
-    "title": "Chainsaw Man - The Movie: Reze Arc (2025)",
-    "rating": "R",
-    "runtime": "1 hr 40 min",
-    "genre": [
-      "Action/Adventure",
-      "Animated",
-      "Anime",
-      "Sci-Fi/Fantasy"
-    ],
-    "image": "https://images.fandango.com/ImageRenderer/200/0/redesign/static/img/default_poster--dark-mode.png/0/images/MasterRepository/fandango/241288/chainsawman_final.jpg"
-  },
-  {
-    "title": "Regretting You (2025)",
-    "rating": "PG-13",
-    "runtime": "1 hr 57 min",
-    "genre": [
-      "Drama",
-      "Romance"
-    ],
-    "image": "https://images.fandango.com/ImageRenderer/200/0/redesign/static/img/default_poster--dark-mode.png/0/images/MasterRepository/fandango/241735/RY_DOM_Online_Teaser_1-Sheet_06_FIN4.jpg"
-  },
-  {
-    "title": "Shelby Oaks (2025)",
-    "rating": "R",
-    "runtime": "1 hr 39 min",
-    "genre": [
-      "Horror",
-      "Mystery & Thriller",
-      "Suspense/Thriller"
-    ],
-    "image": "https://images.fandango.com/ImageRenderer/200/0/redesign/static/img/default_poster--dark-mode.png/0/images/MasterRepository/fandango/241731/SHELBY-OAKS-MattressPoster.jpg"
-  },
-  {
-    "title": "Springsteen: Deliver Me from Nowhere (2025)",
-    "rating": "PG-13",
-    "runtime": "N/A",
-    "genre": [
-      "Runtime: 2 hr Biography",
-      "Drama",
-      "Music/Performing Arts"
-    ],
-    "image": "https://images.fandango.com/ImageRenderer/200/0/redesign/static/img/default_poster--dark-mode.png/0/images/MasterRepository/fandango/241178/795F_HUSKER_KA_W3.2_FN_Mech4.jpg"
-  },
-  {
-    "title": "Black Phone 2 (2025)",
-    "rating": "R",
-    "runtime": "1 hr 54 min",
-    "genre": [
-      "Horror",
-      "Mystery & Thriller"
-    ],
-    "image": "https://images.fandango.com/ImageRenderer/200/0/redesign/static/img/default_poster--dark-mode.png/0/images/MasterRepository/fandango/240922/BP2_Teaser1Sheet6_RGB_1.jpg"
-  },
-  {
-    "title": "Good Fortune (2025)",
-    "rating": "R",
-    "runtime": "1 hr 38 min",
-    "genre": [
-      "Action/Adventure",
-      "Comedy",
-      "Drama"
-    ],
-    "image": "https://images.fandango.com/ImageRenderer/200/0/redesign/static/img/default_poster--dark-mode.png/0/images/MasterRepository/fandango/240873/GF_2025x3000_ONLINE_1SHT_MAIN_V3.jpg"
-  },
-  {
-    "title": "Quezon (2025)",
-    "rating": "Runtime",
-    "runtime": "N/A",
-    "genre": [
-      ": 2 hr 15 min Biography",
-      "Drama",
-      "Historical Film"
-    ],
-    "image": "https://images.fandango.com/ImageRenderer/200/0/redesign/static/img/default_poster--dark-mode.png/0/images/MasterRepository/fandango/243049/quezon.jpg"
-  },
-  {
-    "title": "If I Had Legs I'd Kick You (2025)",
-    "rating": "R",
-    "runtime": "1 hr 53 min",
-    "genre": [
-      "Comedy",
-      "Drama",
-      "Mystery & Thriller"
-    ],
-    "image": "https://images.fandango.com/ImageRenderer/200/0/redesign/static/img/default_poster--dark-mode.png/0/images/MasterRepository/fandango/241791/Poster_IFIHADLEGS.jpg"
-  },
-  {
-    "title": "Roofman (2025)",
-    "rating": "R",
-    "runtime": "2 hr 6 min",
-    "genre": [
-      "Comedy",
-      "Drama",
-      "Suspense/Thriller"
-    ],
-    "image": "https://images.fandango.com/ImageRenderer/200/0/redesign/static/img/default_poster--dark-mode.png/0/images/MasterRepository/fandango/241183/Roofman_DOM_Online_Teaser_1-Sheet_08-FIN5.jpg"
-  },
-  {
-    "title": "Tron: Ares (2025)",
-    "rating": "PG-13",
-    "runtime": "1 hr 59 min",
-    "genre": [
-      "Action/Adventure",
-      "Sci-Fi/Fantasy"
-    ],
-    "image": "https://images.fandango.com/ImageRenderer/200/0/redesign/static/img/default_poster--dark-mode.png/0/images/MasterRepository/fandango/240243/VELCRO_KA_DIGITAL_1SHT_TOS_sRGB_V10.jpg"
-  },
-  {
-    "title": "The Strangers: Chapter 2 (2025)",
-    "rating": "R",
+    "title": "ParaNorman (Remastered)",
     "runtime": "1 hr 36 min",
-    "genre": [
-      "Horror",
-      "Mystery & Thriller"
-    ],
-    "image": "https://images.fandango.com/ImageRenderer/200/0/redesign/static/img/default_poster--dark-mode.png/0/images/MasterRepository/fandango/241170/the-strangers-chapter-2-THE-STRANGERS-1sht_rgb.jpg"
-  },
-  {
-    "title": "Back to the Future: 40th Anniversary (2025)",
-    "rating": "PG",
-    "runtime": "1 hr 56 min",
-    "genre": [
-      "Comedy",
-      "Concert/Special Events"
-    ],
-    "image": "https://images.fandango.com/ImageRenderer/200/0/redesign/static/img/default_poster--dark-mode.png/0/images/MasterRepository/fandango/241898/backtothefuture-posterart.jpg"
-  },
-  {
-    "title": "Stitch Head (2025)",
-    "rating": "PG",
-    "runtime": "1 hr 29 min",
-    "genre": [
-      "Animated",
-      "Animation",
-      "Comedy",
-      "Family",
-      "Kids & Family",
-      "Sci-Fi/Fantasy"
-    ],
-    "image": "https://images.fandango.com/ImageRenderer/200/0/redesign/static/img/default_poster--dark-mode.png/0/images/MasterRepository/fandango/242743/stitchhead.jpg"
-  },
-  {
-    "title": "Chainsaw Man - The Movie: Reze Arc (2025)",
-    "rating": "R",
-    "runtime": "1 hr 40 min",
-    "genre": [
-      "Action/Adventure",
-      "Animated",
-      "Anime",
-      "Sci-Fi/Fantasy"
-    ],
-    "image": "https://images.fandango.com/ImageRenderer/200/0/redesign/static/img/default_poster--dark-mode.png/0/images/MasterRepository/fandango/241288/chainsawman_final.jpg"
-  },
-  {
-    "title": "Regretting You (2025)",
-    "rating": "PG-13",
-    "runtime": "1 hr 57 min",
-    "genre": [
-      "Drama",
-      "Romance"
-    ],
-    "image": "https://images.fandango.com/ImageRenderer/200/0/redesign/static/img/default_poster--dark-mode.png/0/images/MasterRepository/fandango/241735/RY_DOM_Online_Teaser_1-Sheet_06_FIN4.jpg"
-  },
-  {
-    "title": "Shelby Oaks (2025)",
-    "rating": "R",
-    "runtime": "1 hr 39 min",
-    "genre": [
-      "Horror",
-      "Mystery & Thriller",
-      "Suspense/Thriller"
-    ],
-    "image": "https://images.fandango.com/ImageRenderer/200/0/redesign/static/img/default_poster--dark-mode.png/0/images/MasterRepository/fandango/241731/SHELBY-OAKS-MattressPoster.jpg"
-  },
-  {
-    "title": "Springsteen: Deliver Me from Nowhere (2025)",
-    "rating": "PG-13",
-    "runtime": "N/A",
-    "genre": [
-      "Runtime: 2 hr Biography",
-      "Drama",
-      "Music/Performing Arts"
-    ],
-    "image": "https://images.fandango.com/ImageRenderer/200/0/redesign/static/img/default_poster--dark-mode.png/0/images/MasterRepository/fandango/241178/795F_HUSKER_KA_W3.2_FN_Mech4.jpg"
-  },
-  {
-    "title": "Black Phone 2 (2025)",
-    "rating": "R",
-    "runtime": "1 hr 54 min",
-    "genre": [
-      "Horror",
-      "Mystery & Thriller"
-    ],
-    "image": "https://images.fandango.com/ImageRenderer/200/0/redesign/static/img/default_poster--dark-mode.png/0/images/MasterRepository/fandango/240922/BP2_Teaser1Sheet6_RGB_1.jpg"
-  },
-  {
-    "title": "Good Fortune (2025)",
-    "rating": "R",
-    "runtime": "1 hr 38 min",
-    "genre": [
-      "Action/Adventure",
-      "Comedy",
-      "Drama"
-    ],
-    "image": "https://images.fandango.com/ImageRenderer/200/0/redesign/static/img/default_poster--dark-mode.png/0/images/MasterRepository/fandango/240873/GF_2025x3000_ONLINE_1SHT_MAIN_V3.jpg"
-  },
-  {
-    "title": "Roofman (2025)",
-    "rating": "R",
-    "runtime": "2 hr 6 min",
-    "genre": [
-      "Comedy",
-      "Drama",
-      "Suspense/Thriller"
-    ],
-    "image": "https://images.fandango.com/ImageRenderer/200/0/redesign/static/img/default_poster--dark-mode.png/0/images/MasterRepository/fandango/241183/Roofman_DOM_Online_Teaser_1-Sheet_08-FIN5.jpg"
-  },
-  {
-    "title": "Tron: Ares (2025)",
-    "rating": "PG-13",
-    "runtime": "1 hr 59 min",
-    "genre": [
-      "Action/Adventure",
-      "Sci-Fi/Fantasy"
-    ],
-    "image": "https://images.fandango.com/ImageRenderer/200/0/redesign/static/img/default_poster--dark-mode.png/0/images/MasterRepository/fandango/240243/VELCRO_KA_DIGITAL_1SHT_TOS_sRGB_V10.jpg"
-  },
-  {
-    "title": "Back to the Future: 40th Anniversary (2025)",
-    "rating": "PG",
-    "runtime": "1 hr 56 min",
-    "genre": [
-      "Comedy",
-      "Concert/Special Events"
-    ],
-    "image": "https://images.fandango.com/ImageRenderer/200/0/redesign/static/img/default_poster--dark-mode.png/0/images/MasterRepository/fandango/241898/backtothefuture-posterart.jpg"
-  },
-  {
-    "title": "Stitch Head (2025)",
-    "rating": "PG",
-    "runtime": "1 hr 29 min",
-    "genre": [
-      "Animated",
-      "Animation",
-      "Comedy",
-      "Family",
-      "Kids & Family",
-      "Sci-Fi/Fantasy"
-    ],
-    "image": "https://images.fandango.com/ImageRenderer/200/0/redesign/static/img/default_poster--dark-mode.png/0/images/MasterRepository/fandango/242743/stitchhead.jpg"
+    "rating": "Not Rated",
+    "image": "https://images.fandango.com/ImageRenderer/200/0/redesign/static/img/default_poster--dark-mode.png/0/images/MasterRepository/fandango/241801/1000x1480_ParaNorman_Exhibitor%20Poster.jpg"
   },
   {
     "title": "Bugonia (2025)",
-    "rating": "R",
     "runtime": "1 hr 58 min",
-    "genre": [
-      "Comedy",
-      "Mystery & Thriller",
-      "Sci-Fi/Fantasy"
-    ],
+    "rating": "R",
     "image": "https://images.fandango.com/ImageRenderer/200/0/redesign/static/img/default_poster--dark-mode.png/0/images/MasterRepository/fandango/236951/Bugonia_OfficialPoster.jpg"
   },
   {
     "title": "Chainsaw Man - The Movie: Reze Arc (2025)",
-    "rating": "R",
     "runtime": "1 hr 40 min",
-    "genre": [
-      "Action/Adventure",
-      "Animated",
-      "Anime",
-      "Sci-Fi/Fantasy"
-    ],
+    "rating": "R",
     "image": "https://images.fandango.com/ImageRenderer/200/0/redesign/static/img/default_poster--dark-mode.png/0/images/MasterRepository/fandango/241288/chainsawman_final.jpg"
   },
   {
+    "title": "Last Days (2025)",
+    "runtime": "2 hr 4 min",
+    "rating": "PG13",
+    "image": "https://images.fandango.com/ImageRenderer/200/0/redesign/static/img/default_poster--dark-mode.png/0/images/MasterRepository/fandango/241506/Last_Days_2025_poster.jpg"
+  },
+  {
     "title": "Regretting You (2025)",
-    "rating": "PG-13",
     "runtime": "1 hr 57 min",
-    "genre": [
-      "Drama",
-      "Romance"
-    ],
+    "rating": "PG13",
     "image": "https://images.fandango.com/ImageRenderer/200/0/redesign/static/img/default_poster--dark-mode.png/0/images/MasterRepository/fandango/241735/RY_DOM_Online_Teaser_1-Sheet_06_FIN4.jpg"
   },
   {
     "title": "Shelby Oaks (2025)",
-    "rating": "R",
     "runtime": "1 hr 39 min",
-    "genre": [
-      "Horror",
-      "Mystery & Thriller",
-      "Suspense/Thriller"
-    ],
+    "rating": "R",
     "image": "https://images.fandango.com/ImageRenderer/200/0/redesign/static/img/default_poster--dark-mode.png/0/images/MasterRepository/fandango/241731/SHELBY-OAKS-MattressPoster.jpg"
   },
   {
     "title": "Springsteen: Deliver Me from Nowhere (2025)",
-    "rating": "PG-13",
-    "runtime": "N/A",
-    "genre": [
-      "Runtime: 2 hr Biography",
-      "Drama",
-      "Music/Performing Arts"
-    ],
+    "runtime": "2 hr",
+    "rating": "PG13",
     "image": "https://images.fandango.com/ImageRenderer/200/0/redesign/static/img/default_poster--dark-mode.png/0/images/MasterRepository/fandango/241178/795F_HUSKER_KA_W3.2_FN_Mech4.jpg"
   },
   {
     "title": "Black Phone 2 (2025)",
-    "rating": "R",
     "runtime": "1 hr 54 min",
-    "genre": [
-      "Horror",
-      "Mystery & Thriller"
-    ],
-    "image": "https://images.fandango.com/ImageRenderer/200/0/redesign/static/img/default_poster--dark-mode.png/0/images/MasterRepository/fandango/240922/BP2_Teaser1Sheet6_RGB_1.jpg"
-  },
-  {
-    "title": "Frankenstein (2025)",
     "rating": "R",
-    "runtime": "2 hr 29 min",
-    "genre": [
-      "Drama",
-      "Horror",
-      "Sci-Fi/Fantasy"
-    ],
-    "image": "https://images.fandango.com/ImageRenderer/200/0/redesign/static/img/default_poster--dark-mode.png/0/images/MasterRepository/fandango/242511/EN-US_FRNK_Teaser_Creator_LabBack_UBA_sRGB_PRE_filmnation.jpg"
-  },
-  {
-    "title": "Good Fortune (2025)",
-    "rating": "R",
-    "runtime": "1 hr 38 min",
-    "genre": [
-      "Action/Adventure",
-      "Comedy",
-      "Drama"
-    ],
-    "image": "https://images.fandango.com/ImageRenderer/200/0/redesign/static/img/default_poster--dark-mode.png/0/images/MasterRepository/fandango/240873/GF_2025x3000_ONLINE_1SHT_MAIN_V3.jpg"
-  },
-  {
-    "title": "Tron: Ares (2025)",
-    "rating": "PG-13",
-    "runtime": "1 hr 59 min",
-    "genre": [
-      "Action/Adventure",
-      "Sci-Fi/Fantasy"
-    ],
-    "image": "https://images.fandango.com/ImageRenderer/200/0/redesign/static/img/default_poster--dark-mode.png/0/images/MasterRepository/fandango/240243/VELCRO_KA_DIGITAL_1SHT_TOS_sRGB_V10.jpg"
-  },
-  {
-    "title": "You've Got Mail",
-    "rating": "PG",
-    "runtime": "1 hr 59 min",
-    "genre": [
-      "Comedy",
-      "Romance"
-    ],
-    "image": "https://images.fandango.com/ImageRenderer/200/0/redesign/static/img/default_poster--dark-mode.png/0/images.fandango.com/redesign/static/img/default_poster.png"
-  },
-  {
-    "title": "Anniversary (2025)",
-    "rating": "R",
-    "runtime": "1 hr 51 min",
-    "genre": [
-      "Mystery & Thriller",
-      "Suspense/Thriller"
-    ],
-    "image": "https://images.fandango.com/ImageRenderer/200/0/redesign/static/img/default_poster--dark-mode.png/0/images/MasterRepository/fandango/242080/Anniversary_2025_poster.jpg"
-  },
-  {
-    "title": "G-DRAGON IN CINEMA [UBERMENSCH] (2025)",
-    "rating": "Concert",
-    "runtime": "N/A",
-    "genre": [
-      "/Special Events",
-      "Documentary",
-      "Music/Performing Arts"
-    ],
-    "image": "https://images.fandango.com/ImageRenderer/200/0/redesign/static/img/default_poster--dark-mode.png/0/images/MasterRepository/fandango/242605/gdragon.jpg"
-  },
-  {
-    "title": "Stitch Head (2025)",
-    "rating": "PG",
-    "runtime": "1 hr 29 min",
-    "genre": [
-      "Animated",
-      "Animation",
-      "Comedy",
-      "Family",
-      "Kids & Family",
-      "Sci-Fi/Fantasy"
-    ],
-    "image": "https://images.fandango.com/ImageRenderer/200/0/redesign/static/img/default_poster--dark-mode.png/0/images/MasterRepository/fandango/242743/stitchhead.jpg"
-  },
-  {
-    "title": "Bugonia (2025)",
-    "rating": "R",
-    "runtime": "1 hr 58 min",
-    "genre": [
-      "Comedy",
-      "Mystery & Thriller",
-      "Sci-Fi/Fantasy"
-    ],
-    "image": "https://images.fandango.com/ImageRenderer/200/0/redesign/static/img/default_poster--dark-mode.png/0/images/MasterRepository/fandango/236951/Bugonia_OfficialPoster.jpg"
-  },
-  {
-    "title": "Chainsaw Man - The Movie: Reze Arc (2025)",
-    "rating": "R",
-    "runtime": "1 hr 40 min",
-    "genre": [
-      "Action/Adventure",
-      "Animated",
-      "Anime",
-      "Sci-Fi/Fantasy"
-    ],
-    "image": "https://images.fandango.com/ImageRenderer/200/0/redesign/static/img/default_poster--dark-mode.png/0/images/MasterRepository/fandango/241288/chainsawman_final.jpg"
-  },
-  {
-    "title": "Regretting You (2025)",
-    "rating": "PG-13",
-    "runtime": "1 hr 57 min",
-    "genre": [
-      "Drama",
-      "Romance"
-    ],
-    "image": "https://images.fandango.com/ImageRenderer/200/0/redesign/static/img/default_poster--dark-mode.png/0/images/MasterRepository/fandango/241735/RY_DOM_Online_Teaser_1-Sheet_06_FIN4.jpg"
-  },
-  {
-    "title": "Shelby Oaks (2025)",
-    "rating": "R",
-    "runtime": "1 hr 39 min",
-    "genre": [
-      "Horror",
-      "Mystery & Thriller",
-      "Suspense/Thriller"
-    ],
-    "image": "https://images.fandango.com/ImageRenderer/200/0/redesign/static/img/default_poster--dark-mode.png/0/images/MasterRepository/fandango/241731/SHELBY-OAKS-MattressPoster.jpg"
-  },
-  {
-    "title": "Springsteen: Deliver Me from Nowhere (2025)",
-    "rating": "PG-13",
-    "runtime": "N/A",
-    "genre": [
-      "Runtime: 2 hr Biography",
-      "Drama",
-      "Music/Performing Arts"
-    ],
-    "image": "https://images.fandango.com/ImageRenderer/200/0/redesign/static/img/default_poster--dark-mode.png/0/images/MasterRepository/fandango/241178/795F_HUSKER_KA_W3.2_FN_Mech4.jpg"
-  },
-  {
-    "title": "Black Phone 2 (2025)",
-    "rating": "R",
-    "runtime": "1 hr 54 min",
-    "genre": [
-      "Horror",
-      "Mystery & Thriller"
-    ],
     "image": "https://images.fandango.com/ImageRenderer/200/0/redesign/static/img/default_poster--dark-mode.png/0/images/MasterRepository/fandango/240922/BP2_Teaser1Sheet6_RGB_1.jpg"
   },
   {
     "title": "Good Fortune (2025)",
-    "rating": "R",
     "runtime": "1 hr 38 min",
-    "genre": [
-      "Action/Adventure",
-      "Comedy",
-      "Drama"
-    ],
+    "rating": "R",
     "image": "https://images.fandango.com/ImageRenderer/200/0/redesign/static/img/default_poster--dark-mode.png/0/images/MasterRepository/fandango/240873/GF_2025x3000_ONLINE_1SHT_MAIN_V3.jpg"
   },
   {
     "title": "Truth & Treason (2025)",
-    "rating": "PG-13",
-    "runtime": "N/A",
-    "genre": [
-      "Runtime: 2 hr Drama",
-      "Historical Film",
-      "Mystery & Thriller"
-    ],
+    "runtime": "2 hr",
+    "rating": "PG13",
     "image": "https://images.fandango.com/ImageRenderer/200/0/redesign/static/img/default_poster--dark-mode.png/0/images/MasterRepository/fandango/240281/TruthandTreason-OfficialKeyArt-Digital-fixedrating.jpg"
   },
   {
+    "title": "It Was Just an Accident (2025)",
+    "runtime": "1 hr 45 min",
+    "rating": "PG13",
+    "image": "https://images.fandango.com/ImageRenderer/200/0/redesign/static/img/default_poster--dark-mode.png/0/images/MasterRepository/fandango/242732/itwasjustanaccident.jpg"
+  },
+  {
+    "title": "Quezon (2025)",
+    "runtime": "2 hr 15 min",
+    "rating": "Not Rated",
+    "image": "https://images.fandango.com/ImageRenderer/200/0/redesign/static/img/default_poster--dark-mode.png/0/images/MasterRepository/fandango/243049/quezon.jpg"
+  },
+  {
     "title": "Roofman (2025)",
-    "rating": "R",
     "runtime": "2 hr 6 min",
-    "genre": [
-      "Comedy",
-      "Drama",
-      "Suspense/Thriller"
-    ],
+    "rating": "R",
     "image": "https://images.fandango.com/ImageRenderer/200/0/redesign/static/img/default_poster--dark-mode.png/0/images/MasterRepository/fandango/241183/Roofman_DOM_Online_Teaser_1-Sheet_08-FIN5.jpg"
   },
   {
-    "title": "Soul on Fire (2025)",
-    "rating": "PG",
-    "runtime": "1 hr 51 min",
-    "genre": [
-      "Biography",
-      "Drama"
-    ],
-    "image": "https://images.fandango.com/ImageRenderer/200/0/redesign/static/img/default_poster--dark-mode.png/0/images/MasterRepository/fandango/241298/SoulonFire_Online_1400x2100.jpg"
-  },
-  {
     "title": "Tron: Ares (2025)",
-    "rating": "PG-13",
     "runtime": "1 hr 59 min",
-    "genre": [
-      "Action/Adventure",
-      "Sci-Fi/Fantasy"
-    ],
+    "rating": "PG13",
     "image": "https://images.fandango.com/ImageRenderer/200/0/redesign/static/img/default_poster--dark-mode.png/0/images/MasterRepository/fandango/240243/VELCRO_KA_DIGITAL_1SHT_TOS_sRGB_V10.jpg"
   },
   {
+    "title": "Gabby's Dollhouse: The Movie (2025)",
+    "runtime": "1 hr 25 min",
+    "rating": "G",
+    "image": "https://images.fandango.com/ImageRenderer/200/0/redesign/static/img/default_poster--dark-mode.png/0/images/MasterRepository/fandango/240731/gabbysdollhouse-posterart.jpg"
+  },
+  {
     "title": "One Battle After Another (2025)",
-    "rating": "R",
     "runtime": "2 hr 42 min",
-    "genre": [
-      "Action/Adventure",
-      "Comedy",
-      "Drama",
-      "Mystery & Thriller"
-    ],
+    "rating": "R",
     "image": "https://images.fandango.com/ImageRenderer/200/0/redesign/static/img/default_poster--dark-mode.png/0/images/MasterRepository/fandango/241516/OBAA_VERT_MAIN_2764x4096_DOM.jpg"
   },
   {
     "title": "The Strangers: Chapter 2 (2025)",
-    "rating": "R",
     "runtime": "1 hr 36 min",
-    "genre": [
-      "Horror",
-      "Mystery & Thriller"
-    ],
+    "rating": "R",
     "image": "https://images.fandango.com/ImageRenderer/200/0/redesign/static/img/default_poster--dark-mode.png/0/images/MasterRepository/fandango/241170/the-strangers-chapter-2-THE-STRANGERS-1sht_rgb.jpg"
   },
   {
     "title": "Demon Slayer: Kimetsu no Yaiba Infinity Castle (2025)",
-    "rating": "R",
     "runtime": "2 hr 35 min",
-    "genre": [
-      "Action/Adventure",
-      "Animated",
-      "Anime",
-      "Sci-Fi/Fantasy"
-    ],
+    "rating": "R",
     "image": "https://images.fandango.com/ImageRenderer/200/0/redesign/static/img/default_poster--dark-mode.png/0/images/MasterRepository/fandango/239732/DSIC_DateAnnouncement_KV_2x3_V2.jpg"
   },
   {
-    "title": "Back to the Future: 40th Anniversary (2025)",
-    "rating": "PG",
-    "runtime": "1 hr 56 min",
-    "genre": [
-      "Comedy",
-      "Concert/Special Events"
-    ],
-    "image": "https://images.fandango.com/ImageRenderer/200/0/redesign/static/img/default_poster--dark-mode.png/0/images/MasterRepository/fandango/241898/backtothefuture-posterart.jpg"
-  },
-  {
-    "title": "Anniversary (2025)",
-    "rating": "R",
-    "runtime": "1 hr 51 min",
-    "genre": [
-      "Mystery & Thriller",
-      "Suspense/Thriller"
-    ],
-    "image": "https://images.fandango.com/ImageRenderer/200/0/redesign/static/img/default_poster--dark-mode.png/0/images/MasterRepository/fandango/242080/Anniversary_2025_poster.jpg"
-  },
-  {
-    "title": "Chainsaw Man - The Movie: Reze Arc (2025)",
-    "rating": "R",
-    "runtime": "1 hr 40 min",
-    "genre": [
-      "Action/Adventure",
-      "Animated",
-      "Anime",
-      "Sci-Fi/Fantasy"
-    ],
-    "image": "https://images.fandango.com/ImageRenderer/200/0/redesign/static/img/default_poster--dark-mode.png/0/images/MasterRepository/fandango/241288/chainsawman_final.jpg"
-  },
-  {
-    "title": "Regretting You (2025)",
-    "rating": "PG-13",
-    "runtime": "1 hr 57 min",
-    "genre": [
-      "Drama",
-      "Romance"
-    ],
-    "image": "https://images.fandango.com/ImageRenderer/200/0/redesign/static/img/default_poster--dark-mode.png/0/images/MasterRepository/fandango/241735/RY_DOM_Online_Teaser_1-Sheet_06_FIN4.jpg"
-  },
-  {
-    "title": "Shelby Oaks (2025)",
-    "rating": "R",
-    "runtime": "1 hr 39 min",
-    "genre": [
-      "Horror",
-      "Mystery & Thriller",
-      "Suspense/Thriller"
-    ],
-    "image": "https://images.fandango.com/ImageRenderer/200/0/redesign/static/img/default_poster--dark-mode.png/0/images/MasterRepository/fandango/241731/SHELBY-OAKS-MattressPoster.jpg"
-  },
-  {
-    "title": "Springsteen: Deliver Me from Nowhere (2025)",
-    "rating": "PG-13",
-    "runtime": "N/A",
-    "genre": [
-      "Runtime: 2 hr Biography",
-      "Drama",
-      "Music/Performing Arts"
-    ],
-    "image": "https://images.fandango.com/ImageRenderer/200/0/redesign/static/img/default_poster--dark-mode.png/0/images/MasterRepository/fandango/241178/795F_HUSKER_KA_W3.2_FN_Mech4.jpg"
-  },
-  {
-    "title": "Black Phone 2 (2025)",
-    "rating": "R",
-    "runtime": "1 hr 54 min",
-    "genre": [
-      "Horror",
-      "Mystery & Thriller"
-    ],
-    "image": "https://images.fandango.com/ImageRenderer/200/0/redesign/static/img/default_poster--dark-mode.png/0/images/MasterRepository/fandango/240922/BP2_Teaser1Sheet6_RGB_1.jpg"
-  },
-  {
-    "title": "Good Fortune (2025)",
-    "rating": "R",
-    "runtime": "1 hr 38 min",
-    "genre": [
-      "Action/Adventure",
-      "Comedy",
-      "Drama"
-    ],
-    "image": "https://images.fandango.com/ImageRenderer/200/0/redesign/static/img/default_poster--dark-mode.png/0/images/MasterRepository/fandango/240873/GF_2025x3000_ONLINE_1SHT_MAIN_V3.jpg"
-  },
-  {
-    "title": "It Was Just an Accident (2025)",
-    "rating": "PG-13",
-    "runtime": "1 hr 45 min",
-    "genre": [
-      "Action/Adventure",
-      "Drama",
-      "Mystery & Thriller",
-      "Suspense/Thriller"
-    ],
-    "image": "https://images.fandango.com/ImageRenderer/200/0/redesign/static/img/default_poster--dark-mode.png/0/images/MasterRepository/fandango/242732/itwasjustanaccident.jpg"
-  },
-  {
-    "title": "If I Had Legs I'd Kick You (2025)",
-    "rating": "R",
-    "runtime": "1 hr 53 min",
-    "genre": [
-      "Comedy",
-      "Drama",
-      "Mystery & Thriller"
-    ],
-    "image": "https://images.fandango.com/ImageRenderer/200/0/redesign/static/img/default_poster--dark-mode.png/0/images/MasterRepository/fandango/241791/Poster_IFIHADLEGS.jpg"
-  },
-  {
-    "title": "Roofman (2025)",
-    "rating": "R",
-    "runtime": "2 hr 6 min",
-    "genre": [
-      "Comedy",
-      "Drama",
-      "Suspense/Thriller"
-    ],
-    "image": "https://images.fandango.com/ImageRenderer/200/0/redesign/static/img/default_poster--dark-mode.png/0/images/MasterRepository/fandango/241183/Roofman_DOM_Online_Teaser_1-Sheet_08-FIN5.jpg"
-  },
-  {
-    "title": "Tron: Ares (2025)",
-    "rating": "PG-13",
-    "runtime": "1 hr 59 min",
-    "genre": [
-      "Action/Adventure",
-      "Sci-Fi/Fantasy"
-    ],
-    "image": "https://images.fandango.com/ImageRenderer/200/0/redesign/static/img/default_poster--dark-mode.png/0/images/MasterRepository/fandango/240243/VELCRO_KA_DIGITAL_1SHT_TOS_sRGB_V10.jpg"
-  },
-  {
-    "title": "One Battle After Another (2025)",
-    "rating": "R",
-    "runtime": "2 hr 42 min",
-    "genre": [
-      "Action/Adventure",
-      "Comedy",
-      "Drama",
-      "Mystery & Thriller"
-    ],
-    "image": "https://images.fandango.com/ImageRenderer/200/0/redesign/static/img/default_poster--dark-mode.png/0/images/MasterRepository/fandango/241516/OBAA_VERT_MAIN_2764x4096_DOM.jpg"
-  },
-  {
     "title": "Double Feature: Hallow Road / Vincent Must Die",
-    "rating": "Drama",
     "runtime": "N/A",
-    "genre": [
-      "Mystery & Thriller"
-    ],
+    "rating": "Not Rated",
     "image": "https://images.fandango.com/ImageRenderer/200/0/redesign/static/img/default_poster--dark-mode.png/0/images/MasterRepository/fandango/242351/HalloweenDoubleFeaturePoster-Final.jpg"
   },
   {
+    "title": "Predator: Badlands Early Access Screening (2025)",
+    "runtime": "1 hr 47 min",
+    "rating": "PG13",
+    "image": "https://images.fandango.com/ImageRenderer/200/0/redesign/static/img/default_poster--dark-mode.png/0/images/MasterRepository/fandango/242816/predatorbadlandsEA_presale.jpg"
+  },
+  {
+    "title": "Rocky IV: Rocky vs. Drago - The Director's Cut",
+    "runtime": "1 hr 39 min",
+    "rating": "PG13",
+    "image": "https://images.fandango.com/ImageRenderer/200/0/redesign/static/img/default_poster--dark-mode.png/0/images/MasterRepository/fandango/240193/Ticketing_Rocky%20IV.jpg"
+  },
+  {
+    "title": "The Twilight Saga: Breaking Dawn Part 1 (2025)",
+    "runtime": "1 hr 57 min",
+    "rating": "PG13",
+    "image": "https://images.fandango.com/ImageRenderer/200/0/redesign/static/img/default_poster--dark-mode.png/0/images/MasterRepository/fandango/241675/1000x1480_TwilightBreakingDawnPt1_Ticketing-WebThumb_Exhib_jpg.jpg"
+  },
+  {
+    "title": "The Twilight Saga: Breaking Dawn Part 2 (2025)",
+    "runtime": "1 hr 55 min",
+    "rating": "Not Rated",
+    "image": "https://images.fandango.com/ImageRenderer/200/0/redesign/static/img/default_poster--dark-mode.png/0/images/MasterRepository/fandango/241676/1000x1480_TwilightBreakingDawnPt2_Ticketing-WebThumb_Exhib_jpg.jpg"
+  },
+  {
     "title": "Back to the Future: 40th Anniversary (2025)",
-    "rating": "PG",
     "runtime": "1 hr 56 min",
-    "genre": [
-      "Comedy",
-      "Concert/Special Events"
-    ],
+    "rating": "PG",
     "image": "https://images.fandango.com/ImageRenderer/200/0/redesign/static/img/default_poster--dark-mode.png/0/images/MasterRepository/fandango/241898/backtothefuture-posterart.jpg"
   },
   {
+    "title": "Self-Help (2025)",
+    "runtime": "1 hr 25 min",
+    "rating": "R",
+    "image": "https://images.fandango.com/ImageRenderer/200/0/redesign/static/img/default_poster--dark-mode.png/0/images/MasterRepository/fandango/242828/Self-Help-One-Sheet-TAGGED.jpg"
+  },
+  {
+    "title": "The Twilight Saga: Eclipse (2025)",
+    "runtime": "1 hr 35 min",
+    "rating": "PG13",
+    "image": "https://images.fandango.com/ImageRenderer/200/0/redesign/static/img/default_poster--dark-mode.png/0/images/MasterRepository/fandango/241674/1000x1480_TwilightEclipse_Ticketing-WebThumb_Exhib.jpg"
+  },
+  {
+    "title": "Violent Ends (2025)",
+    "runtime": "1 hr 52 min",
+    "rating": "R",
+    "image": "https://images.fandango.com/ImageRenderer/200/0/redesign/static/img/default_poster--dark-mode.png/0/images/MasterRepository/fandango/242886/violetends.jpg"
+  },
+  {
+    "title": "The Twilight Saga: New Moon (2025)",
+    "runtime": "2 hr 15 min",
+    "rating": "Not Rated",
+    "image": "https://images.fandango.com/ImageRenderer/200/0/redesign/static/img/default_poster--dark-mode.png/0/images/MasterRepository/fandango/241673/1000x1480_TwilightNewMoon_Ticketing-WebThumb_Exhib_jpg.jpg"
+  },
+  {
+    "title": "Anniversary (2025)",
+    "runtime": "1 hr 51 min",
+    "rating": "R",
+    "image": "https://images.fandango.com/ImageRenderer/200/0/redesign/static/img/default_poster--dark-mode.png/0/images/MasterRepository/fandango/242080/Anniversary_2025_poster.jpg"
+  },
+  {
     "title": "Stitch Head (2025)",
-    "rating": "PG",
     "runtime": "1 hr 29 min",
-    "genre": [
-      "Animated",
-      "Animation",
-      "Comedy",
-      "Family",
-      "Kids & Family",
-      "Sci-Fi/Fantasy"
-    ],
+    "rating": "PG",
     "image": "https://images.fandango.com/ImageRenderer/200/0/redesign/static/img/default_poster--dark-mode.png/0/images/MasterRepository/fandango/242743/stitchhead.jpg"
   },
   {
-    "title": "Bugonia (2025)",
+    "title": "Twilight (2025)",
+    "runtime": "2 hr 7 min",
+    "rating": "PG13",
+    "image": "https://images.fandango.com/ImageRenderer/200/0/redesign/static/img/default_poster--dark-mode.png/0/images/MasterRepository/fandango/241672/1000x1480_Twilight_Ticketing-WebThumb_Exhib.jpg"
+  },
+  {
+    "title": "ParaNorman (Remastered)",
+    "runtime": "1 hr 36 min",
+    "rating": "Not Rated",
+    "image": "https://images.fandango.com/ImageRenderer/200/0/redesign/static/img/default_poster--dark-mode.png/0/images/MasterRepository/fandango/241801/1000x1480_ParaNorman_Exhibitor%20Poster.jpg"
+  },
+  {
+    "title": "Blue Moon (2025)",
+    "runtime": "1 hr 40 min",
     "rating": "R",
+    "image": "https://images.fandango.com/ImageRenderer/200/0/redesign/static/img/default_poster--dark-mode.png/0/images/MasterRepository/fandango/241629/SONY-BMMI-04_DigitalPoster_1934x2866.jpg"
+  },
+  {
+    "title": "Bugonia (2025)",
     "runtime": "1 hr 58 min",
-    "genre": [
-      "Comedy",
-      "Mystery & Thriller",
-      "Sci-Fi/Fantasy"
-    ],
+    "rating": "R",
     "image": "https://images.fandango.com/ImageRenderer/200/0/redesign/static/img/default_poster--dark-mode.png/0/images/MasterRepository/fandango/236951/Bugonia_OfficialPoster.jpg"
   },
   {
     "title": "Chainsaw Man - The Movie: Reze Arc (2025)",
-    "rating": "R",
     "runtime": "1 hr 40 min",
-    "genre": [
-      "Action/Adventure",
-      "Animated",
-      "Anime",
-      "Sci-Fi/Fantasy"
-    ],
+    "rating": "R",
     "image": "https://images.fandango.com/ImageRenderer/200/0/redesign/static/img/default_poster--dark-mode.png/0/images/MasterRepository/fandango/241288/chainsawman_final.jpg"
   },
   {
     "title": "Regretting You (2025)",
-    "rating": "PG-13",
     "runtime": "1 hr 57 min",
-    "genre": [
-      "Drama",
-      "Romance"
-    ],
+    "rating": "PG13",
     "image": "https://images.fandango.com/ImageRenderer/200/0/redesign/static/img/default_poster--dark-mode.png/0/images/MasterRepository/fandango/241735/RY_DOM_Online_Teaser_1-Sheet_06_FIN4.jpg"
   },
   {
     "title": "Shelby Oaks (2025)",
-    "rating": "R",
     "runtime": "1 hr 39 min",
-    "genre": [
-      "Horror",
-      "Mystery & Thriller",
-      "Suspense/Thriller"
-    ],
+    "rating": "R",
     "image": "https://images.fandango.com/ImageRenderer/200/0/redesign/static/img/default_poster--dark-mode.png/0/images/MasterRepository/fandango/241731/SHELBY-OAKS-MattressPoster.jpg"
   },
   {
     "title": "Springsteen: Deliver Me from Nowhere (2025)",
-    "rating": "PG-13",
-    "runtime": "N/A",
-    "genre": [
-      "Runtime: 2 hr Biography",
-      "Drama",
-      "Music/Performing Arts"
-    ],
+    "runtime": "2 hr",
+    "rating": "PG13",
     "image": "https://images.fandango.com/ImageRenderer/200/0/redesign/static/img/default_poster--dark-mode.png/0/images/MasterRepository/fandango/241178/795F_HUSKER_KA_W3.2_FN_Mech4.jpg"
   },
   {
     "title": "Black Phone 2 (2025)",
-    "rating": "R",
     "runtime": "1 hr 54 min",
-    "genre": [
-      "Horror",
-      "Mystery & Thriller"
-    ],
+    "rating": "R",
     "image": "https://images.fandango.com/ImageRenderer/200/0/redesign/static/img/default_poster--dark-mode.png/0/images/MasterRepository/fandango/240922/BP2_Teaser1Sheet6_RGB_1.jpg"
   },
   {
     "title": "Good Fortune (2025)",
-    "rating": "R",
     "runtime": "1 hr 38 min",
-    "genre": [
-      "Action/Adventure",
-      "Comedy",
-      "Drama"
-    ],
+    "rating": "R",
     "image": "https://images.fandango.com/ImageRenderer/200/0/redesign/static/img/default_poster--dark-mode.png/0/images/MasterRepository/fandango/240873/GF_2025x3000_ONLINE_1SHT_MAIN_V3.jpg"
   },
   {
-    "title": "The Mastermind (2025)",
+    "title": "After the Hunt (2025)",
+    "runtime": "2 hr 19 min",
     "rating": "R",
-    "runtime": "1 hr 50 min",
-    "genre": [
-      "Drama",
-      "Suspense/Thriller"
-    ],
-    "image": "https://images.fandango.com/ImageRenderer/200/0/redesign/static/img/default_poster--dark-mode.png/0/images/MasterRepository/fandango/241972/THE_MASTERMIND_OS_EN_Theaters_Oct17.jpg"
+    "image": "https://images.fandango.com/ImageRenderer/200/0/redesign/static/img/default_poster--dark-mode.png/0/images/MasterRepository/fandango/241429/AFTERTHEHUNT_KA_2765x4096_R31_145_FIN17.jpg"
+  },
+  {
+    "title": "If I Had Legs I'd Kick You (2025)",
+    "runtime": "1 hr 53 min",
+    "rating": "R",
+    "image": "https://images.fandango.com/ImageRenderer/200/0/redesign/static/img/default_poster--dark-mode.png/0/images/MasterRepository/fandango/241791/Poster_IFIHADLEGS.jpg"
   },
   {
     "title": "Roofman (2025)",
-    "rating": "R",
     "runtime": "2 hr 6 min",
-    "genre": [
-      "Comedy",
-      "Drama",
-      "Suspense/Thriller"
-    ],
+    "rating": "R",
     "image": "https://images.fandango.com/ImageRenderer/200/0/redesign/static/img/default_poster--dark-mode.png/0/images/MasterRepository/fandango/241183/Roofman_DOM_Online_Teaser_1-Sheet_08-FIN5.jpg"
   },
   {
     "title": "Tron: Ares (2025)",
-    "rating": "PG-13",
     "runtime": "1 hr 59 min",
-    "genre": [
-      "Action/Adventure",
-      "Sci-Fi/Fantasy"
-    ],
+    "rating": "PG13",
+    "image": "https://images.fandango.com/ImageRenderer/200/0/redesign/static/img/default_poster--dark-mode.png/0/images/MasterRepository/fandango/240243/VELCRO_KA_DIGITAL_1SHT_TOS_sRGB_V10.jpg"
+  },
+  {
+    "title": "Good Boy (2025)",
+    "runtime": "1 hr 12 min",
+    "rating": "PG13",
+    "image": "https://images.fandango.com/ImageRenderer/200/0/redesign/static/img/default_poster--dark-mode.png/0/images/MasterRepository/fandango/242202/goodboy.jpg"
+  },
+  {
+    "title": "One Battle After Another (2025)",
+    "runtime": "2 hr 42 min",
+    "rating": "R",
+    "image": "https://images.fandango.com/ImageRenderer/200/0/redesign/static/img/default_poster--dark-mode.png/0/images/MasterRepository/fandango/241516/OBAA_VERT_MAIN_2764x4096_DOM.jpg"
+  },
+  {
+    "title": "The Strangers: Chapter 2 (2025)",
+    "runtime": "1 hr 36 min",
+    "rating": "R",
+    "image": "https://images.fandango.com/ImageRenderer/200/0/redesign/static/img/default_poster--dark-mode.png/0/images/MasterRepository/fandango/241170/the-strangers-chapter-2-THE-STRANGERS-1sht_rgb.jpg"
+  },
+  {
+    "title": "Demon Slayer: Kimetsu no Yaiba Infinity Castle (2025)",
+    "runtime": "2 hr 35 min",
+    "rating": "R",
+    "image": "https://images.fandango.com/ImageRenderer/200/0/redesign/static/img/default_poster--dark-mode.png/0/images/MasterRepository/fandango/239732/DSIC_DateAnnouncement_KV_2x3_V2.jpg"
+  },
+  {
+    "title": "The Conjuring: Last Rites (2025)",
+    "runtime": "2 hr 15 min",
+    "rating": "R",
+    "image": "https://images.fandango.com/ImageRenderer/200/0/redesign/static/img/default_poster--dark-mode.png/0/images/MasterRepository/fandango/240617/CJRLR_VERT_MAIN_2764x4096_DOM.jpg"
+  },
+  {
+    "title": "Black Phone 2 (2025)",
+    "runtime": "1 hr 54 min",
+    "rating": "R",
+    "image": "https://images.fandango.com/ImageRenderer/200/0/redesign/static/img/default_poster--dark-mode.png/0/images/MasterRepository/fandango/240922/BP2_Teaser1Sheet6_RGB_1.jpg"
+  },
+  {
+    "title": "Frankenstein (2025)",
+    "runtime": "2 hr 29 min",
+    "rating": "R",
+    "image": "https://images.fandango.com/ImageRenderer/200/0/redesign/static/img/default_poster--dark-mode.png/0/images/MasterRepository/fandango/242511/EN-US_FRNK_Teaser_Creator_LabBack_UBA_sRGB_PRE_filmnation.jpg"
+  },
+  {
+    "title": "Tron: Ares (2025)",
+    "runtime": "1 hr 59 min",
+    "rating": "PG13",
+    "image": "https://images.fandango.com/ImageRenderer/200/0/redesign/static/img/default_poster--dark-mode.png/0/images/MasterRepository/fandango/240243/VELCRO_KA_DIGITAL_1SHT_TOS_sRGB_V10.jpg"
+  },
+  {
+    "title": "Double Feature: Hallow Road / Vincent Must Die",
+    "runtime": "N/A",
+    "rating": "Not Rated",
+    "image": "https://images.fandango.com/ImageRenderer/200/0/redesign/static/img/default_poster--dark-mode.png/0/images/MasterRepository/fandango/242351/HalloweenDoubleFeaturePoster-Final.jpg"
+  },
+  {
+    "title": "Mary J. Blige: For My Fans (2025)",
+    "runtime": "N/A",
+    "rating": "Not Rated",
+    "image": "https://images.fandango.com/ImageRenderer/200/0/redesign/static/img/default_poster--dark-mode.png/0/images/MasterRepository/fandango/242721/MJB-One-Sheet-27X40.jpg"
+  },
+  {
+    "title": "Predator: Badlands Early Access Screening (2025)",
+    "runtime": "1 hr 47 min",
+    "rating": "PG13",
+    "image": "https://images.fandango.com/ImageRenderer/200/0/redesign/static/img/default_poster--dark-mode.png/0/images/MasterRepository/fandango/242816/predatorbadlandsEA_presale.jpg"
+  },
+  {
+    "title": "Rocky IV: Rocky vs. Drago - The Director's Cut",
+    "runtime": "1 hr 39 min",
+    "rating": "PG13",
+    "image": "https://images.fandango.com/ImageRenderer/200/0/redesign/static/img/default_poster--dark-mode.png/0/images/MasterRepository/fandango/240193/Ticketing_Rocky%20IV.jpg"
+  },
+  {
+    "title": "Back to the Future: 40th Anniversary (2025)",
+    "runtime": "1 hr 56 min",
+    "rating": "PG",
+    "image": "https://images.fandango.com/ImageRenderer/200/0/redesign/static/img/default_poster--dark-mode.png/0/images/MasterRepository/fandango/241898/backtothefuture-posterart.jpg"
+  },
+  {
+    "title": "Sinners IMAX Reissue (2025)",
+    "runtime": "2 hr 17 min",
+    "rating": "R",
+    "image": "https://images.fandango.com/ImageRenderer/200/0/redesign/static/img/default_poster--dark-mode.png/0/images/MasterRepository/fandango/243038/sinnersimaxposter.jpg"
+  },
+  {
+    "title": "Anniversary (2025)",
+    "runtime": "1 hr 51 min",
+    "rating": "R",
+    "image": "https://images.fandango.com/ImageRenderer/200/0/redesign/static/img/default_poster--dark-mode.png/0/images/MasterRepository/fandango/242080/Anniversary_2025_poster.jpg"
+  },
+  {
+    "title": "Stitch Head (2025)",
+    "runtime": "1 hr 29 min",
+    "rating": "PG",
+    "image": "https://images.fandango.com/ImageRenderer/200/0/redesign/static/img/default_poster--dark-mode.png/0/images/MasterRepository/fandango/242743/stitchhead.jpg"
+  },
+  {
+    "title": "Bugonia (2025)",
+    "runtime": "1 hr 58 min",
+    "rating": "R",
+    "image": "https://images.fandango.com/ImageRenderer/200/0/redesign/static/img/default_poster--dark-mode.png/0/images/MasterRepository/fandango/236951/Bugonia_OfficialPoster.jpg"
+  },
+  {
+    "title": "Chainsaw Man - The Movie: Reze Arc (2025)",
+    "runtime": "1 hr 40 min",
+    "rating": "R",
+    "image": "https://images.fandango.com/ImageRenderer/200/0/redesign/static/img/default_poster--dark-mode.png/0/images/MasterRepository/fandango/241288/chainsawman_final.jpg"
+  },
+  {
+    "title": "Regretting You (2025)",
+    "runtime": "1 hr 57 min",
+    "rating": "PG13",
+    "image": "https://images.fandango.com/ImageRenderer/200/0/redesign/static/img/default_poster--dark-mode.png/0/images/MasterRepository/fandango/241735/RY_DOM_Online_Teaser_1-Sheet_06_FIN4.jpg"
+  },
+  {
+    "title": "Shelby Oaks (2025)",
+    "runtime": "1 hr 39 min",
+    "rating": "R",
+    "image": "https://images.fandango.com/ImageRenderer/200/0/redesign/static/img/default_poster--dark-mode.png/0/images/MasterRepository/fandango/241731/SHELBY-OAKS-MattressPoster.jpg"
+  },
+  {
+    "title": "Springsteen: Deliver Me from Nowhere (2025)",
+    "runtime": "2 hr",
+    "rating": "PG13",
+    "image": "https://images.fandango.com/ImageRenderer/200/0/redesign/static/img/default_poster--dark-mode.png/0/images/MasterRepository/fandango/241178/795F_HUSKER_KA_W3.2_FN_Mech4.jpg"
+  },
+  {
+    "title": "Black Phone 2 (2025)",
+    "runtime": "1 hr 54 min",
+    "rating": "R",
+    "image": "https://images.fandango.com/ImageRenderer/200/0/redesign/static/img/default_poster--dark-mode.png/0/images/MasterRepository/fandango/240922/BP2_Teaser1Sheet6_RGB_1.jpg"
+  },
+  {
+    "title": "Good Fortune (2025)",
+    "runtime": "1 hr 38 min",
+    "rating": "R",
+    "image": "https://images.fandango.com/ImageRenderer/200/0/redesign/static/img/default_poster--dark-mode.png/0/images/MasterRepository/fandango/240873/GF_2025x3000_ONLINE_1SHT_MAIN_V3.jpg"
+  },
+  {
+    "title": "Quezon (2025)",
+    "runtime": "2 hr 15 min",
+    "rating": "Not Rated",
+    "image": "https://images.fandango.com/ImageRenderer/200/0/redesign/static/img/default_poster--dark-mode.png/0/images/MasterRepository/fandango/243049/quezon.jpg"
+  },
+  {
+    "title": "If I Had Legs I'd Kick You (2025)",
+    "runtime": "1 hr 53 min",
+    "rating": "R",
+    "image": "https://images.fandango.com/ImageRenderer/200/0/redesign/static/img/default_poster--dark-mode.png/0/images/MasterRepository/fandango/241791/Poster_IFIHADLEGS.jpg"
+  },
+  {
+    "title": "Roofman (2025)",
+    "runtime": "2 hr 6 min",
+    "rating": "R",
+    "image": "https://images.fandango.com/ImageRenderer/200/0/redesign/static/img/default_poster--dark-mode.png/0/images/MasterRepository/fandango/241183/Roofman_DOM_Online_Teaser_1-Sheet_08-FIN5.jpg"
+  },
+  {
+    "title": "Tron: Ares (2025)",
+    "runtime": "1 hr 59 min",
+    "rating": "PG13",
+    "image": "https://images.fandango.com/ImageRenderer/200/0/redesign/static/img/default_poster--dark-mode.png/0/images/MasterRepository/fandango/240243/VELCRO_KA_DIGITAL_1SHT_TOS_sRGB_V10.jpg"
+  },
+  {
+    "title": "The Strangers: Chapter 2 (2025)",
+    "runtime": "1 hr 36 min",
+    "rating": "R",
+    "image": "https://images.fandango.com/ImageRenderer/200/0/redesign/static/img/default_poster--dark-mode.png/0/images/MasterRepository/fandango/241170/the-strangers-chapter-2-THE-STRANGERS-1sht_rgb.jpg"
+  },
+  {
+    "title": "Predator: Badlands Early Access Screening (2025)",
+    "runtime": "1 hr 47 min",
+    "rating": "PG13",
+    "image": "https://images.fandango.com/ImageRenderer/200/0/redesign/static/img/default_poster--dark-mode.png/0/images/MasterRepository/fandango/242816/predatorbadlandsEA_presale.jpg"
+  },
+  {
+    "title": "Back to the Future: 40th Anniversary (2025)",
+    "runtime": "1 hr 56 min",
+    "rating": "PG",
+    "image": "https://images.fandango.com/ImageRenderer/200/0/redesign/static/img/default_poster--dark-mode.png/0/images/MasterRepository/fandango/241898/backtothefuture-posterart.jpg"
+  },
+  {
+    "title": "Stitch Head (2025)",
+    "runtime": "1 hr 29 min",
+    "rating": "PG",
+    "image": "https://images.fandango.com/ImageRenderer/200/0/redesign/static/img/default_poster--dark-mode.png/0/images/MasterRepository/fandango/242743/stitchhead.jpg"
+  },
+  {
+    "title": "Chainsaw Man - The Movie: Reze Arc (2025)",
+    "runtime": "1 hr 40 min",
+    "rating": "R",
+    "image": "https://images.fandango.com/ImageRenderer/200/0/redesign/static/img/default_poster--dark-mode.png/0/images/MasterRepository/fandango/241288/chainsawman_final.jpg"
+  },
+  {
+    "title": "Regretting You (2025)",
+    "runtime": "1 hr 57 min",
+    "rating": "PG13",
+    "image": "https://images.fandango.com/ImageRenderer/200/0/redesign/static/img/default_poster--dark-mode.png/0/images/MasterRepository/fandango/241735/RY_DOM_Online_Teaser_1-Sheet_06_FIN4.jpg"
+  },
+  {
+    "title": "Shelby Oaks (2025)",
+    "runtime": "1 hr 39 min",
+    "rating": "R",
+    "image": "https://images.fandango.com/ImageRenderer/200/0/redesign/static/img/default_poster--dark-mode.png/0/images/MasterRepository/fandango/241731/SHELBY-OAKS-MattressPoster.jpg"
+  },
+  {
+    "title": "Springsteen: Deliver Me from Nowhere (2025)",
+    "runtime": "2 hr",
+    "rating": "PG13",
+    "image": "https://images.fandango.com/ImageRenderer/200/0/redesign/static/img/default_poster--dark-mode.png/0/images/MasterRepository/fandango/241178/795F_HUSKER_KA_W3.2_FN_Mech4.jpg"
+  },
+  {
+    "title": "Black Phone 2 (2025)",
+    "runtime": "1 hr 54 min",
+    "rating": "R",
+    "image": "https://images.fandango.com/ImageRenderer/200/0/redesign/static/img/default_poster--dark-mode.png/0/images/MasterRepository/fandango/240922/BP2_Teaser1Sheet6_RGB_1.jpg"
+  },
+  {
+    "title": "Good Fortune (2025)",
+    "runtime": "1 hr 38 min",
+    "rating": "R",
+    "image": "https://images.fandango.com/ImageRenderer/200/0/redesign/static/img/default_poster--dark-mode.png/0/images/MasterRepository/fandango/240873/GF_2025x3000_ONLINE_1SHT_MAIN_V3.jpg"
+  },
+  {
+    "title": "Roofman (2025)",
+    "runtime": "2 hr 6 min",
+    "rating": "R",
+    "image": "https://images.fandango.com/ImageRenderer/200/0/redesign/static/img/default_poster--dark-mode.png/0/images/MasterRepository/fandango/241183/Roofman_DOM_Online_Teaser_1-Sheet_08-FIN5.jpg"
+  },
+  {
+    "title": "Tron: Ares (2025)",
+    "runtime": "1 hr 59 min",
+    "rating": "PG13",
+    "image": "https://images.fandango.com/ImageRenderer/200/0/redesign/static/img/default_poster--dark-mode.png/0/images/MasterRepository/fandango/240243/VELCRO_KA_DIGITAL_1SHT_TOS_sRGB_V10.jpg"
+  },
+  {
+    "title": "Predator: Badlands Early Access Screening (2025)",
+    "runtime": "1 hr 47 min",
+    "rating": "PG13",
+    "image": "https://images.fandango.com/ImageRenderer/200/0/redesign/static/img/default_poster--dark-mode.png/0/images/MasterRepository/fandango/242816/predatorbadlandsEA_presale.jpg"
+  },
+  {
+    "title": "Bugonia (2025)",
+    "runtime": "1 hr 58 min",
+    "rating": "R",
+    "image": "https://images.fandango.com/ImageRenderer/200/0/redesign/static/img/default_poster--dark-mode.png/0/images/MasterRepository/fandango/236951/Bugonia_OfficialPoster.jpg"
+  },
+  {
+    "title": "Chainsaw Man - The Movie: Reze Arc (2025)",
+    "runtime": "1 hr 40 min",
+    "rating": "R",
+    "image": "https://images.fandango.com/ImageRenderer/200/0/redesign/static/img/default_poster--dark-mode.png/0/images/MasterRepository/fandango/241288/chainsawman_final.jpg"
+  },
+  {
+    "title": "Regretting You (2025)",
+    "runtime": "1 hr 57 min",
+    "rating": "PG13",
+    "image": "https://images.fandango.com/ImageRenderer/200/0/redesign/static/img/default_poster--dark-mode.png/0/images/MasterRepository/fandango/241735/RY_DOM_Online_Teaser_1-Sheet_06_FIN4.jpg"
+  },
+  {
+    "title": "Black Phone 2 (2025)",
+    "runtime": "1 hr 54 min",
+    "rating": "R",
+    "image": "https://images.fandango.com/ImageRenderer/200/0/redesign/static/img/default_poster--dark-mode.png/0/images/MasterRepository/fandango/240922/BP2_Teaser1Sheet6_RGB_1.jpg"
+  },
+  {
+    "title": "Good Fortune (2025)",
+    "runtime": "1 hr 38 min",
+    "rating": "R",
+    "image": "https://images.fandango.com/ImageRenderer/200/0/redesign/static/img/default_poster--dark-mode.png/0/images/MasterRepository/fandango/240873/GF_2025x3000_ONLINE_1SHT_MAIN_V3.jpg"
+  },
+  {
+    "title": "Tron: Ares (2025)",
+    "runtime": "1 hr 59 min",
+    "rating": "PG13",
+    "image": "https://images.fandango.com/ImageRenderer/200/0/redesign/static/img/default_poster--dark-mode.png/0/images/MasterRepository/fandango/240243/VELCRO_KA_DIGITAL_1SHT_TOS_sRGB_V10.jpg"
+  },
+  {
+    "title": "Stitch Head (2025)",
+    "runtime": "1 hr 29 min",
+    "rating": "PG",
+    "image": "https://images.fandango.com/ImageRenderer/200/0/redesign/static/img/default_poster--dark-mode.png/0/images/MasterRepository/fandango/242743/stitchhead.jpg"
+  },
+  {
+    "title": "Bugonia (2025)",
+    "runtime": "1 hr 58 min",
+    "rating": "R",
+    "image": "https://images.fandango.com/ImageRenderer/200/0/redesign/static/img/default_poster--dark-mode.png/0/images/MasterRepository/fandango/236951/Bugonia_OfficialPoster.jpg"
+  },
+  {
+    "title": "Chainsaw Man - The Movie: Reze Arc (2025)",
+    "runtime": "1 hr 40 min",
+    "rating": "R",
+    "image": "https://images.fandango.com/ImageRenderer/200/0/redesign/static/img/default_poster--dark-mode.png/0/images/MasterRepository/fandango/241288/chainsawman_final.jpg"
+  },
+  {
+    "title": "Regretting You (2025)",
+    "runtime": "1 hr 57 min",
+    "rating": "PG13",
+    "image": "https://images.fandango.com/ImageRenderer/200/0/redesign/static/img/default_poster--dark-mode.png/0/images/MasterRepository/fandango/241735/RY_DOM_Online_Teaser_1-Sheet_06_FIN4.jpg"
+  },
+  {
+    "title": "Shelby Oaks (2025)",
+    "runtime": "1 hr 39 min",
+    "rating": "R",
+    "image": "https://images.fandango.com/ImageRenderer/200/0/redesign/static/img/default_poster--dark-mode.png/0/images/MasterRepository/fandango/241731/SHELBY-OAKS-MattressPoster.jpg"
+  },
+  {
+    "title": "Springsteen: Deliver Me from Nowhere (2025)",
+    "runtime": "2 hr",
+    "rating": "PG13",
+    "image": "https://images.fandango.com/ImageRenderer/200/0/redesign/static/img/default_poster--dark-mode.png/0/images/MasterRepository/fandango/241178/795F_HUSKER_KA_W3.2_FN_Mech4.jpg"
+  },
+  {
+    "title": "Black Phone 2 (2025)",
+    "runtime": "1 hr 54 min",
+    "rating": "R",
+    "image": "https://images.fandango.com/ImageRenderer/200/0/redesign/static/img/default_poster--dark-mode.png/0/images/MasterRepository/fandango/240922/BP2_Teaser1Sheet6_RGB_1.jpg"
+  },
+  {
+    "title": "Good Fortune (2025)",
+    "runtime": "1 hr 38 min",
+    "rating": "R",
+    "image": "https://images.fandango.com/ImageRenderer/200/0/redesign/static/img/default_poster--dark-mode.png/0/images/MasterRepository/fandango/240873/GF_2025x3000_ONLINE_1SHT_MAIN_V3.jpg"
+  },
+  {
+    "title": "Roofman (2025)",
+    "runtime": "2 hr 6 min",
+    "rating": "R",
+    "image": "https://images.fandango.com/ImageRenderer/200/0/redesign/static/img/default_poster--dark-mode.png/0/images/MasterRepository/fandango/241183/Roofman_DOM_Online_Teaser_1-Sheet_08-FIN5.jpg"
+  },
+  {
+    "title": "Soul on Fire (2025)",
+    "runtime": "1 hr 51 min",
+    "rating": "PG",
+    "image": "https://images.fandango.com/ImageRenderer/200/0/redesign/static/img/default_poster--dark-mode.png/0/images/MasterRepository/fandango/241298/SoulonFire_Online_1400x2100.jpg"
+  },
+  {
+    "title": "Tron: Ares (2025)",
+    "runtime": "1 hr 59 min",
+    "rating": "PG13",
+    "image": "https://images.fandango.com/ImageRenderer/200/0/redesign/static/img/default_poster--dark-mode.png/0/images/MasterRepository/fandango/240243/VELCRO_KA_DIGITAL_1SHT_TOS_sRGB_V10.jpg"
+  },
+  {
+    "title": "The Strangers: Chapter 2 (2025)",
+    "runtime": "1 hr 36 min",
+    "rating": "R",
+    "image": "https://images.fandango.com/ImageRenderer/200/0/redesign/static/img/default_poster--dark-mode.png/0/images/MasterRepository/fandango/241170/the-strangers-chapter-2-THE-STRANGERS-1sht_rgb.jpg"
+  },
+  {
+    "title": "Demon Slayer: Kimetsu no Yaiba Infinity Castle (2025)",
+    "runtime": "2 hr 35 min",
+    "rating": "R",
+    "image": "https://images.fandango.com/ImageRenderer/200/0/redesign/static/img/default_poster--dark-mode.png/0/images/MasterRepository/fandango/239732/DSIC_DateAnnouncement_KV_2x3_V2.jpg"
+  },
+  {
+    "title": "Mary J. Blige: For My Fans (2025)",
+    "runtime": "N/A",
+    "rating": "Not Rated",
+    "image": "https://images.fandango.com/ImageRenderer/200/0/redesign/static/img/default_poster--dark-mode.png/0/images/MasterRepository/fandango/242721/MJB-One-Sheet-27X40.jpg"
+  },
+  {
+    "title": "Back to the Future: 40th Anniversary (2025)",
+    "runtime": "1 hr 56 min",
+    "rating": "PG",
+    "image": "https://images.fandango.com/ImageRenderer/200/0/redesign/static/img/default_poster--dark-mode.png/0/images/MasterRepository/fandango/241898/backtothefuture-posterart.jpg"
+  },
+  {
+    "title": "Anniversary (2025)",
+    "runtime": "1 hr 51 min",
+    "rating": "R",
+    "image": "https://images.fandango.com/ImageRenderer/200/0/redesign/static/img/default_poster--dark-mode.png/0/images/MasterRepository/fandango/242080/Anniversary_2025_poster.jpg"
+  },
+  {
+    "title": "Chainsaw Man - The Movie: Reze Arc (2025)",
+    "runtime": "1 hr 40 min",
+    "rating": "R",
+    "image": "https://images.fandango.com/ImageRenderer/200/0/redesign/static/img/default_poster--dark-mode.png/0/images/MasterRepository/fandango/241288/chainsawman_final.jpg"
+  },
+  {
+    "title": "Regretting You (2025)",
+    "runtime": "1 hr 57 min",
+    "rating": "PG13",
+    "image": "https://images.fandango.com/ImageRenderer/200/0/redesign/static/img/default_poster--dark-mode.png/0/images/MasterRepository/fandango/241735/RY_DOM_Online_Teaser_1-Sheet_06_FIN4.jpg"
+  },
+  {
+    "title": "Shelby Oaks (2025)",
+    "runtime": "1 hr 39 min",
+    "rating": "R",
+    "image": "https://images.fandango.com/ImageRenderer/200/0/redesign/static/img/default_poster--dark-mode.png/0/images/MasterRepository/fandango/241731/SHELBY-OAKS-MattressPoster.jpg"
+  },
+  {
+    "title": "Springsteen: Deliver Me from Nowhere (2025)",
+    "runtime": "2 hr",
+    "rating": "PG13",
+    "image": "https://images.fandango.com/ImageRenderer/200/0/redesign/static/img/default_poster--dark-mode.png/0/images/MasterRepository/fandango/241178/795F_HUSKER_KA_W3.2_FN_Mech4.jpg"
+  },
+  {
+    "title": "Black Phone 2 (2025)",
+    "runtime": "1 hr 54 min",
+    "rating": "R",
+    "image": "https://images.fandango.com/ImageRenderer/200/0/redesign/static/img/default_poster--dark-mode.png/0/images/MasterRepository/fandango/240922/BP2_Teaser1Sheet6_RGB_1.jpg"
+  },
+  {
+    "title": "Good Fortune (2025)",
+    "runtime": "1 hr 38 min",
+    "rating": "R",
+    "image": "https://images.fandango.com/ImageRenderer/200/0/redesign/static/img/default_poster--dark-mode.png/0/images/MasterRepository/fandango/240873/GF_2025x3000_ONLINE_1SHT_MAIN_V3.jpg"
+  },
+  {
+    "title": "It Was Just an Accident (2025)",
+    "runtime": "1 hr 45 min",
+    "rating": "PG13",
+    "image": "https://images.fandango.com/ImageRenderer/200/0/redesign/static/img/default_poster--dark-mode.png/0/images/MasterRepository/fandango/242732/itwasjustanaccident.jpg"
+  },
+  {
+    "title": "If I Had Legs I'd Kick You (2025)",
+    "runtime": "1 hr 53 min",
+    "rating": "R",
+    "image": "https://images.fandango.com/ImageRenderer/200/0/redesign/static/img/default_poster--dark-mode.png/0/images/MasterRepository/fandango/241791/Poster_IFIHADLEGS.jpg"
+  },
+  {
+    "title": "Roofman (2025)",
+    "runtime": "2 hr 6 min",
+    "rating": "R",
+    "image": "https://images.fandango.com/ImageRenderer/200/0/redesign/static/img/default_poster--dark-mode.png/0/images/MasterRepository/fandango/241183/Roofman_DOM_Online_Teaser_1-Sheet_08-FIN5.jpg"
+  },
+  {
+    "title": "Tron: Ares (2025)",
+    "runtime": "1 hr 59 min",
+    "rating": "PG13",
     "image": "https://images.fandango.com/ImageRenderer/200/0/redesign/static/img/default_poster--dark-mode.png/0/images/MasterRepository/fandango/240243/VELCRO_KA_DIGITAL_1SHT_TOS_sRGB_V10.jpg"
   },
   {
     "title": "One Battle After Another (2025)",
-    "rating": "R",
     "runtime": "2 hr 42 min",
-    "genre": [
-      "Action/Adventure",
-      "Comedy",
-      "Drama",
-      "Mystery & Thriller"
-    ],
+    "rating": "R",
+    "image": "https://images.fandango.com/ImageRenderer/200/0/redesign/static/img/default_poster--dark-mode.png/0/images/MasterRepository/fandango/241516/OBAA_VERT_MAIN_2764x4096_DOM.jpg"
+  },
+  {
+    "title": "Double Feature: Hallow Road / Vincent Must Die",
+    "runtime": "N/A",
+    "rating": "Not Rated",
+    "image": "https://images.fandango.com/ImageRenderer/200/0/redesign/static/img/default_poster--dark-mode.png/0/images/MasterRepository/fandango/242351/HalloweenDoubleFeaturePoster-Final.jpg"
+  },
+  {
+    "title": "Predator: Badlands Early Access Screening (2025)",
+    "runtime": "1 hr 47 min",
+    "rating": "PG13",
+    "image": "https://images.fandango.com/ImageRenderer/200/0/redesign/static/img/default_poster--dark-mode.png/0/images/MasterRepository/fandango/242816/predatorbadlandsEA_presale.jpg"
+  },
+  {
+    "title": "Oracles of God: The Story of the New Testament",
+    "runtime": "1 hr 35 min",
+    "rating": "PG",
+    "image": "https://images.fandango.com/ImageRenderer/200/0/redesign/static/img/default_poster--dark-mode.png/0/images/MasterRepository/fandango/242077/Fathom_RtoR_PartnerAssetsTicketingThumbnail_1000x1480_png.png"
+  },
+  {
+    "title": "Back to the Future: 40th Anniversary (2025)",
+    "runtime": "1 hr 56 min",
+    "rating": "PG",
+    "image": "https://images.fandango.com/ImageRenderer/200/0/redesign/static/img/default_poster--dark-mode.png/0/images/MasterRepository/fandango/241898/backtothefuture-posterart.jpg"
+  },
+  {
+    "title": "Stitch Head (2025)",
+    "runtime": "1 hr 29 min",
+    "rating": "PG",
+    "image": "https://images.fandango.com/ImageRenderer/200/0/redesign/static/img/default_poster--dark-mode.png/0/images/MasterRepository/fandango/242743/stitchhead.jpg"
+  },
+  {
+    "title": "Bugonia (2025)",
+    "runtime": "1 hr 58 min",
+    "rating": "R",
+    "image": "https://images.fandango.com/ImageRenderer/200/0/redesign/static/img/default_poster--dark-mode.png/0/images/MasterRepository/fandango/236951/Bugonia_OfficialPoster.jpg"
+  },
+  {
+    "title": "Chainsaw Man - The Movie: Reze Arc (2025)",
+    "runtime": "1 hr 40 min",
+    "rating": "R",
+    "image": "https://images.fandango.com/ImageRenderer/200/0/redesign/static/img/default_poster--dark-mode.png/0/images/MasterRepository/fandango/241288/chainsawman_final.jpg"
+  },
+  {
+    "title": "Regretting You (2025)",
+    "runtime": "1 hr 57 min",
+    "rating": "PG13",
+    "image": "https://images.fandango.com/ImageRenderer/200/0/redesign/static/img/default_poster--dark-mode.png/0/images/MasterRepository/fandango/241735/RY_DOM_Online_Teaser_1-Sheet_06_FIN4.jpg"
+  },
+  {
+    "title": "Shelby Oaks (2025)",
+    "runtime": "1 hr 39 min",
+    "rating": "R",
+    "image": "https://images.fandango.com/ImageRenderer/200/0/redesign/static/img/default_poster--dark-mode.png/0/images/MasterRepository/fandango/241731/SHELBY-OAKS-MattressPoster.jpg"
+  },
+  {
+    "title": "Springsteen: Deliver Me from Nowhere (2025)",
+    "runtime": "2 hr",
+    "rating": "PG13",
+    "image": "https://images.fandango.com/ImageRenderer/200/0/redesign/static/img/default_poster--dark-mode.png/0/images/MasterRepository/fandango/241178/795F_HUSKER_KA_W3.2_FN_Mech4.jpg"
+  },
+  {
+    "title": "Black Phone 2 (2025)",
+    "runtime": "1 hr 54 min",
+    "rating": "R",
+    "image": "https://images.fandango.com/ImageRenderer/200/0/redesign/static/img/default_poster--dark-mode.png/0/images/MasterRepository/fandango/240922/BP2_Teaser1Sheet6_RGB_1.jpg"
+  },
+  {
+    "title": "Good Fortune (2025)",
+    "runtime": "1 hr 38 min",
+    "rating": "R",
+    "image": "https://images.fandango.com/ImageRenderer/200/0/redesign/static/img/default_poster--dark-mode.png/0/images/MasterRepository/fandango/240873/GF_2025x3000_ONLINE_1SHT_MAIN_V3.jpg"
+  },
+  {
+    "title": "The Mastermind (2025)",
+    "runtime": "1 hr 50 min",
+    "rating": "R",
+    "image": "https://images.fandango.com/ImageRenderer/200/0/redesign/static/img/default_poster--dark-mode.png/0/images/MasterRepository/fandango/241972/THE_MASTERMIND_OS_EN_Theaters_Oct17.jpg"
+  },
+  {
+    "title": "Roofman (2025)",
+    "runtime": "2 hr 6 min",
+    "rating": "R",
+    "image": "https://images.fandango.com/ImageRenderer/200/0/redesign/static/img/default_poster--dark-mode.png/0/images/MasterRepository/fandango/241183/Roofman_DOM_Online_Teaser_1-Sheet_08-FIN5.jpg"
+  },
+  {
+    "title": "Tron: Ares (2025)",
+    "runtime": "1 hr 59 min",
+    "rating": "PG13",
+    "image": "https://images.fandango.com/ImageRenderer/200/0/redesign/static/img/default_poster--dark-mode.png/0/images/MasterRepository/fandango/240243/VELCRO_KA_DIGITAL_1SHT_TOS_sRGB_V10.jpg"
+  },
+  {
+    "title": "One Battle After Another (2025)",
+    "runtime": "2 hr 42 min",
+    "rating": "R",
     "image": "https://images.fandango.com/ImageRenderer/200/0/redesign/static/img/default_poster--dark-mode.png/0/images/MasterRepository/fandango/241516/OBAA_VERT_MAIN_2764x4096_DOM.jpg"
   }
 ]
