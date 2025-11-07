@@ -53,7 +53,7 @@ app.post("/signup", async (req, res) => {
   }
 });
 
-app.post("/login", async (req, res) => {
+app.get("/login", async (req, res) => {
   try {
     const { email, password } = req.body;
     if (!email || !password)
@@ -87,7 +87,7 @@ app.get("/me", requireAuth, (req, res) => {
   res.status(200).json({ user: req.user });
 });
 
-app.post("/logout", async (req, res) => {
+app.delete("/logout", async (req, res) => {
   try {
     const { error } = await supabase.auth.signOut();
 
