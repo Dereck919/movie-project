@@ -8,7 +8,7 @@ function Home() {
   return (
     <div className="flex flex-col">
       <div className="text-center m-5">
-        <h1 className="text-white">NEW RELEASES</h1>
+        <h1 className="text-white">HEY</h1>
       </div>
 
       <div className="flex justify-center mb-4">
