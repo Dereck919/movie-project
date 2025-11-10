@@ -1,7 +1,8 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
+import onSwitch from "../../pages/Authentification.jsx";
 
-export default function LoginCommon() {
+export default function LoginCommon({ onSwitch }) {
   const [showPassword, setShowPassword] = useState(false);
 
   return (
@@ -103,9 +104,10 @@ export default function LoginCommon() {
           {/* Footer */}
           <p className="text-sm mt-6 text-center text-purple-200">
             Don’t have an account?{" "}
-            <Link to="/signup" className="text-purple-400 hover:underline">
+            <button onClick = {onSwitch} >
+              
               Sign up
-            </Link>
+            </button>
           </p>
         </div>
       </div>

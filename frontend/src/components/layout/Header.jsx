@@ -39,7 +39,7 @@ function Header() {
         <Link to="/ticket" style={linkStyle}>
           My Tickets
         </Link>
-        <Link to="/login" style={linkStyle}>
+        <Link to="/authentication" style={linkStyle}>
           Login
         </Link>
       </div>
