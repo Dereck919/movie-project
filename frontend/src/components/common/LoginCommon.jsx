@@ -9,18 +9,21 @@ export default function LoginCommon({ onSwitch }) {
     <div className="flex justify-center items-center min-h-screen bg-linear-to-br from-purple-900 via-gray-900 to-black text-white px-4">
       <div className="w-full max-w-md">
         <div className="p-8 border border-purple-700/40 rounded-2xl shadow-[0_0_25px_rgba(128,90,213,0.4)] bg-gray-900/80 backdrop-blur-md">
-          
           <div className="mb-6 text-center">
             <h1 className="font-mono text-3xl tracking-tight text-purple-300">
               🎟️ Welcome Back!
             </h1>
-            <p className="text-sm text-purple-200 mt-1">Sign in to your account</p>
+            <p className="text-sm text-purple-200 mt-1">
+              Sign in to your account
+            </p>
           </div>
 
-       
           <form className="flex flex-col gap-4">
             <div>
-              <label htmlFor="email" className="text-sm font-medium text-purple-200">
+              <label
+                htmlFor="email"
+                className="text-sm font-medium text-purple-200"
+              >
                 Email<span className="text-purple-400">*</span>
               </label>
               <input
@@ -35,7 +38,10 @@ export default function LoginCommon({ onSwitch }) {
 
             {/* password */}
             <div>
-              <label htmlFor="password" className="text-sm font-medium text-purple-200">
+              <label
+                htmlFor="password"
+                className="text-sm font-medium text-purple-200"
+              >
                 Password<span className="text-purple-400">*</span>
               </label>
               <div className="relative">
@@ -61,9 +67,13 @@ export default function LoginCommon({ onSwitch }) {
             {/* the remember and forgot options */}
             <div className="flex items-center justify-between text-sm text-purple-200">
               <label className="flex items-center gap-2">
-                <input type="checkbox" className="h-4 w-4 accent-purple-500" /> Remember me
+                <input type="checkbox" className="h-4 w-4 accent-purple-500" />{" "}
+                Remember me
               </label>
-              <Link to="/forgot-password" className="text-purple-400 hover:underline">
+              <Link
+                to="/forgot-password"
+                className="text-purple-400 hover:underline"
+              >
                 Forgot password?
               </Link>
             </div>
@@ -82,10 +92,11 @@ export default function LoginCommon({ onSwitch }) {
                 <span className="w-full border-t border-purple-800" />
               </div>
               <div className="relative flex justify-center">
-                <span className="bg-gray-900/80 px-2 text-xs text-purple-400">or</span>
+                <span className="bg-gray-900/80 px-2 text-xs text-purple-400">
+                  or
+                </span>
               </div>
             </div>
-
 
             <button
               type="button"
@@ -103,11 +114,7 @@ export default function LoginCommon({ onSwitch }) {
 
           {/* Footer */}
           <p className="text-sm mt-6 text-center text-purple-200">
-            Don’t have an account?{" "}
-            <button onClick = {onSwitch} >
-              
-              Sign up
-            </button>
+            Don’t have an account? <button onClick={onSwitch}>Sign up</button>
           </p>
         </div>
       </div>

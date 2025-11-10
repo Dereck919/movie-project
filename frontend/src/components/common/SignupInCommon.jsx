@@ -10,17 +10,21 @@ export default function SignupInCommon() {
         <div className="p-8 border border-purple-700/40 rounded-2xl shadow-[0_0_25px_rgba(128,90,213,0.4)] bg-gray-900/80 backdrop-blur-md">
           {/* Header */}
           <div className="mb-6 text-center">
-            <h1 className="font-mono text-3xl tracking-tight text-purple-300">🎬 Sign up</h1>
+            <h1 className="font-mono text-3xl tracking-tight text-purple-300">
+              🎬 Sign up
+            </h1>
             <p className="text-sm text-purple-200 mt-1">
               Create your account to begin your journey
             </p>
           </div>
 
-      
           <form className="flex flex-col gap-4">
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
               <div>
-                <label htmlFor="firstName" className="text-sm font-medium text-purple-200">
+                <label
+                  htmlFor="firstName"
+                  className="text-sm font-medium text-purple-200"
+                >
                   First Name<span className="text-purple-400">*</span>
                 </label>
                 <input
@@ -34,7 +38,10 @@ export default function SignupInCommon() {
               </div>
 
               <div>
-                <label htmlFor="lastName" className="text-sm font-medium text-purple-200">
+                <label
+                  htmlFor="lastName"
+                  className="text-sm font-medium text-purple-200"
+                >
                   Last Name<span className="text-purple-400">*</span>
                 </label>
                 <input
@@ -49,7 +56,10 @@ export default function SignupInCommon() {
             </div>
             {/* Email */}
             <div>
-              <label htmlFor="email" className="text-sm font-medium text-purple-200">
+              <label
+                htmlFor="email"
+                className="text-sm font-medium text-purple-200"
+              >
                 Email<span className="text-purple-400">*</span>
               </label>
               <input
@@ -64,7 +74,10 @@ export default function SignupInCommon() {
 
             {/* Password */}
             <div>
-              <label htmlFor="password" className="text-sm font-medium text-purple-200">
+              <label
+                htmlFor="password"
+                className="text-sm font-medium text-purple-200"
+              >
                 Password<span className="text-purple-400">*</span>
               </label>
               <div className="relative">
@@ -91,10 +104,20 @@ export default function SignupInCommon() {
 
             {/* terms and privacy */}
             <label className="flex items-start gap-2 text-sm text-purple-200">
-              <input type="checkbox" className="mt-0.5 accent-purple-500" required />
+              <input
+                type="checkbox"
+                className="mt-0.5 accent-purple-500"
+                required
+              />
               I agree to the{" "}
-              <span className="underline decoration-dotted text-purple-400">Terms</span> and{" "}
-              <span className="underline decoration-dotted text-purple-400">Privacy Policy</span>.
+              <span className="underline decoration-dotted text-purple-400">
+                Terms
+              </span>{" "}
+              and{" "}
+              <span className="underline decoration-dotted text-purple-400">
+                Privacy Policy
+              </span>
+              .
             </label>
 
             {/* submit */}
@@ -110,7 +133,9 @@ export default function SignupInCommon() {
                 <span className="w-full border-t border-purple-800" />
               </div>
               <div className="relative flex justify-center">
-                <span className="bg-gray-900/80 px-2 text-xs text-purple-400">or</span>
+                <span className="bg-gray-900/80 px-2 text-xs text-purple-400">
+                  or
+                </span>
               </div>
             </div>
 
