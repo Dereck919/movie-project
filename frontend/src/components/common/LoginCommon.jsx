@@ -1,8 +1,13 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
+import onSwitch from "../../pages/Authentification.jsx";
+import AuthButton from "./AuthButton.jsx";
 
-export default function LoginCommon() {
+export default function LoginCommon({ onSwitch }) {
   const [showPassword, setShowPassword] = useState(false);
+  const {email, setEmail} = useState("");
+  const {password, setPassword} = useState("");
+
 
   return (
     <div className="flex justify-center items-center min-h-screen bg-linear-to-br from-purple-900 via-gray-900 to-black text-white px-4">
@@ -23,6 +28,8 @@ export default function LoginCommon() {
                 Email<span className="text-purple-400">*</span>
               </label>
               <input
+                onChange={(e) => setEmail(e.target.value)}
+                
                 className="mt-1 w-full border border-purple-600 bg-black/40 text-white rounded-lg p-2.5 placeholder:text-purple-400 focus:outline-none focus:ring-2 focus:ring-purple-500/70 focus:border-purple-400"
                 id="email"
                 type="email"
@@ -39,6 +46,8 @@ export default function LoginCommon() {
               </label>
               <div className="relative">
                 <input
+                  onChange={(e) => setPassword(e.target.value)}
+                  value={password}
                   className="mt-1 w-full border border-purple-600 bg-black/40 text-white rounded-lg p-2.5 pr-12 placeholder:text-purple-400 focus:outline-none focus:ring-2 focus:ring-purple-500/70 focus:border-purple-400"
                   type={showPassword ? "text" : "password"}
                   id="password"
@@ -68,12 +77,7 @@ export default function LoginCommon() {
             </div>
 
             {/* Submit Button */}
-            <button
-              type="submit"
-              className="mt-2 w-full border-2 border-purple-500 text-purple-300 rounded-lg p-2.5 font-medium hover:bg-purple-700 hover:text-white transition"
-            >
-              Sign In
-            </button>
+            <AuthButton email={email} password={password} />
 
             {/* Divider */}
             <div className="relative my-2">
@@ -103,9 +107,10 @@ export default function LoginCommon() {
           {/* Footer */}
           <p className="text-sm mt-6 text-center text-purple-200">
             Don’t have an account?{" "}
-            <Link to="/signup" className="text-purple-400 hover:underline">
+            <button onClick = {onSwitch} >
+              
               Sign up
-            </Link>
+            </button>
           </p>
         </div>
       </div>
