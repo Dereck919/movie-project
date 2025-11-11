@@ -1,7 +1,7 @@
 import React from "react";
 
 function MovieCard(props) {
-  const { title, link, image, runtime, rating } = props;
+  const { title, image, runtime, rating } = props;
 
   return (
     <div className="mx-auto my-5">
@@ -9,10 +9,10 @@ function MovieCard(props) {
         <img
           src={image}
           alt="movie poster"
-          className="border-b-8 border-white"
+          className="border-b-8 border-white max-h-[600px]"
         />
-        <div className="p-3 h-28">
-          <h2 className="lg:text-lg md:text-xs sm:text-xs text-white font-bold">
+        <div className="h-28 py-3 pl-3">
+          <h2 className="lg:text-lg md:text-xs sm:text-xs text-white font-bold w-64">
             {title}
           </h2>
           <p className="text-sm text-white">

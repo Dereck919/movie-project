@@ -6,11 +6,11 @@ function Ticket(props) {
   const location = "AMC Plaza Bonita";
 
   return (
-    <div class="max-w-lg m-8 shadow-lg/30 p-4">
-      <p class="font-semibold">Date: {date}</p>
+    <div className="max-w-lg m-8 shadow-lg/30 p-4">
+      <p className="font-semibold">Date: {date}</p>
       <p>Location: {location}</p>
       <hr />
-      <p class="mt-1">Ticker ID: {ticket_id}</p>
+      <p className="mt-1">Ticker ID: {ticket_id}</p>
     </div>
   );
 }

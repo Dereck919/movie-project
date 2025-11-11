@@ -53,7 +53,7 @@ export const SearchBar = ({ onSearch }) => {
     <div className="search-container relative w-full max-w-md">
       <div className="flex items-center p-2 w-full h-10 bg-gray-700 shadow-xl border border-gray-500">
         <input
-          className="flex-grow bg-transparent text-white outline-none px-3"
+          className="grow bg-transparent text-white outline-none px-3"
           placeholder="Search Movies..."
           value={input}
           onChange={handleChange}
@@ -79,4 +79,3 @@ export const SearchBar = ({ onSearch }) => {
     </div>
   );
 };
-
