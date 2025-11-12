@@ -21,7 +21,8 @@ export default function LoginCommon({ onSwitch }) {
             </p>
           </div>
 
-          <form className="flex flex-col gap-4">
+          <div className="flex flex-col gap-4">
+            {/* email*/}
             <div>
               <label
                 htmlFor="email"
@@ -34,7 +35,6 @@ export default function LoginCommon({ onSwitch }) {
                 className="mt-1 w-full border border-purple-600 bg-black/40 text-white rounded-lg p-2.5 placeholder:text-purple-400 focus:outline-none focus:ring-2 focus:ring-purple-500/70 focus:border-purple-400"
                 id="email"
                 type="email"
-                name="email"
                 placeholder="filmfan@sdsu.edu"
                 required
               />
@@ -52,7 +52,6 @@ export default function LoginCommon({ onSwitch }) {
                 <input
                   onChange={(e) => {
                     setPassword(e.target.value);
-                    console.log("Password:", e.target.value);
                   }}
                   value={password}
                   className="mt-1 w-full border border-purple-600 bg-black/40 text-white rounded-lg p-2.5 pr-12 placeholder:text-purple-400 focus:outline-none focus:ring-2 focus:ring-purple-500/70 focus:border-purple-400"
@@ -114,11 +113,16 @@ export default function LoginCommon({ onSwitch }) {
               />
               <span className="text-sm">Sign in with Google</span>
             </button>
-          </form>
+          </div>
 
-          {/* Footer */}
-          <p className="text-sm mt-6 text-center text-purple-200">
-            Don’t have an account? <button onClick={onSwitch}>Sign up</button>
+          <p className="text-sm mt-6 text-center text-purple-400">
+            Don’t have an account?{" "}
+            <button
+              onClick={onSwitch}
+              className="hover:underline hover:text-blue-500"
+            >
+              Sign up
+            </button>
           </p>
         </div>
       </div>
