@@ -1,9 +1,7 @@
 import React from "react";
 
 function Ticket(props) {
-  const ticket_id = "ahfuhqwuhw";
-  const date = "Nov 21, 2025";
-  const location = "AMC Plaza Bonita";
+  const { ticket_id, date, location } = props;
 
   return (
     <div className="max-w-lg m-8 shadow-lg/30 p-4">

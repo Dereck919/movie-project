@@ -10,7 +10,7 @@ export default function SignupInCommon({ onSwitch }) {
 
   return (
     <div className="flex justify-center items-center min-h-screen bg-linear-to-br from-purple-900 via-gray-900 to-black text-white px-4">
-      <div className="w-full max-w-md">
+      <div className="w-full max-w-md my-5">
         <div className="p-8 border border-purple-700/40 rounded-2xl shadow-[0_0_25px_rgba(128,90,213,0.4)] bg-gray-900/80 backdrop-blur-md">
           {/* Header */}
           <div className="mb-6 text-center">

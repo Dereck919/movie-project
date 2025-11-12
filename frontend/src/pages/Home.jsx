@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { SearchBar } from "../components/common/SearchBar.jsx";
-import MovieCard from "../components/common/MovieCard.jsx";
+import MovieCard from "../components/common/Moviecard.jsx";
 import MovieCarousel from "../components/common/MovieCarousel.jsx";
 import supabase from "../supabaseClient.js";
 
@@ -81,7 +81,7 @@ function Home() {
             <p className="text-xl">No movies found</p>
           </div>
         ) : (
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
+          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6 mx-5">
             {movies.map((movie) => (
               <MovieCard
                 key={movie.id}

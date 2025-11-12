@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { FaChevronRight, FaChevronLeft } from "react-icons/fa";
-import MovieCard from "./MovieCard";
+import MovieCard from "./Moviecard";
 
 const MovieCarousel = () => {
   const [current, setCurrent] = useState(0);

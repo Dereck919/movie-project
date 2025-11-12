@@ -1,4 +1,5 @@
 import React from "react";
+import GetMovie from "./GetMovie";
 
 function MovieCard(props) {
   const { title, image, runtime, rating } = props;
@@ -11,13 +12,14 @@ function MovieCard(props) {
           alt="movie poster"
           className="border-b-8 border-white max-h-[600px]"
         />
-        <div className="h-28 py-3 pl-3">
+        <div className="h-38 py-3 pl-3">
           <h2 className="lg:text-lg md:text-xs sm:text-xs text-white font-bold w-64">
             {title}
           </h2>
           <p className="text-sm text-white">
             {runtime} | {rating}
           </p>
+          <GetMovie />
         </div>
       </div>
     </div>

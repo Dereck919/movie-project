@@ -8,9 +8,11 @@ function TicketInformation() {
         <h2 className="text-white text-3xl font-semibold">My Tickets</h2>
       </div>
       <div className="">
-        <Ticket />
-        <Ticket />
-        <Ticket />
+        <Ticket
+          date="November 32nd 2025"
+          location="Mars"
+          ticket_id="123456mfnjsandsad912381"
+        />
       </div>
     </div>
   );

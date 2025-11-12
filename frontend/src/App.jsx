@@ -13,6 +13,8 @@ import Authentification from "./pages/Authentification.jsx";
 import Navbar from "./components/layout/Header.jsx";
 import Footer from "./components/layout/Footer.jsx";
 import Ticket from "./pages/TicketsPage.jsx";
+import Cart from "./pages/Cart.jsx";
+import Checkout from "./pages/Checkout.jsx";
 
 function ProtectedRoute({ children }) {
   const [loading, setLoading] = useState(true);
@@ -56,6 +58,22 @@ function App({ children }) {
           element={
             <ProtectedRoute>
               <Ticket />
+            </ProtectedRoute>
+          }
+        />
+        <Route
+          path="/cart"
+          element={
+            <ProtectedRoute>
+              <Cart />
+            </ProtectedRoute>
+          }
+        />
+        <Route
+          path="/checkout"
+          element={
+            <ProtectedRoute>
+              <Checkout />
             </ProtectedRoute>
           }
         />

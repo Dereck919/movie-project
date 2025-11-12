@@ -27,7 +27,7 @@ function Ticket() {
   if (!user) return <p>Loading...</p>;
 
   return (
-    <div className="flex 1 justify-center items-center pr-2">
+    <div className="flex flex-col justify-center items-center pr-2">
       <h1>Welcome {user.email}</h1>
       <TicketInformation />
     </div>
