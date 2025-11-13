@@ -6,7 +6,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "nodemon --env-file=.env server.js",
-    "scrape": "nodemon scrapper/scrapper.mjs"
+    "scrape": "nodemon scrapper/scrapper.mjs",
+    "data": "nodemon --env-file=.env movieToDatabase.js"
   },
   "repository": {
     "type": "git",

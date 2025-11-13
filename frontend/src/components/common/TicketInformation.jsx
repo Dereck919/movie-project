@@ -3,14 +3,16 @@ import Ticket from "./Ticket";
 
 function TicketInformation() {
   return (
-    <div class="flex flex-col min-h-screen">
-      <div class="py-20 bg-black mx-8 rounded-lg p-4">
-        <h2 class="text-white text-3xl font-semibold">My Tickets</h2>
+    <div className="flex flex-col min-h-screen">
+      <div className="py-20 bg-black mx-8 rounded-lg p-4">
+        <h2 className="text-white text-3xl font-semibold">My Tickets</h2>
       </div>
-      <div class="">
-        <Ticket />
-        <Ticket />
-        <Ticket />
+      <div className="">
+        <Ticket
+          date="November 32nd 2025"
+          location="Mars"
+          ticket_id="123456mfnjsandsad912381"
+        />
       </div>
     </div>
   );

@@ -1,6 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import { PiFilmSlate } from "react-icons/pi";
+import supabase from "../../supabaseClient";
 
 const navStyle = {
   backgroundColor: "#000",
@@ -21,6 +22,16 @@ const linkStyle = {
   textDecoration: "none",
 };
 
+const logout = async () => {
+  const { error } = await supabase.auth.signOut();
+
+  if (error) {
+    console.error(error.message);
+  } else {
+    window.location.href = "/authentication";
+  }
+};
+
 function Header() {
   return (
     <nav style={navStyle}>
@@ -39,9 +50,10 @@ function Header() {
         <Link to="/ticket" style={linkStyle}>
           My Tickets
         </Link>
-        <Link to="/login" style={linkStyle}>
+        <Link to="/authentication" style={linkStyle}>
           Login
         </Link>
+        <button onClick={logout}>Logout</button>
       </div>
     </nav>
   );
