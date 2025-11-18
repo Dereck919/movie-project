@@ -3,7 +3,7 @@ import { FaChevronRight, FaChevronLeft } from "react-icons/fa";
 import MovieCard from "./Moviecard";
 
 const MovieCarousel = () => {
-  const [current, setCurrent] = useState(0);
+  const [current, setCurrent] = useState (0);
   const items = [
     <MovieCard
       title="Self-Help (2025)"
