@@ -50,25 +50,25 @@ export const SearchBar = ({ onSearch }) => {
   };
 
   return (
-    <div className="search-container relative w-full max-w-md">
-      <div className="flex items-center p-2 w-full h-10 bg-gray-700 shadow-xl border border-gray-500">
+    <div className="search-container relative w-full max-w-lg">
+      <div className="flex items-center p-3 w-full h-12 bg-red-900/60 shadow-lg border border-black-500 rounded-xl">
         <input
-          className="grow bg-transparent text-white outline-none px-3"
+          className="grow bg-transparent text-white outline-none px-4"
           placeholder="Search Movies..."
           value={input}
           onChange={handleChange}
         />
         <button onClick={() => onSearch(input)} className="cursor-pointer">
-          <FaSearch className="text-white hover:scale-110" />
+          <FaSearch className="text-red-200 hover:text-red-300 transition" />
         </button>
       </div>
 
       {showDropdown && suggestions.length > 0 && (
-        <ul className="absolute left-0 w-full bg-white text-black shadow-md z-50 mt-1 max-h-60 overflow-y-auto">
+        <ul className="absolute left-0 w-full bg-red-950 text-red-100 border border-red-500 rounded-xl shadow-xl z-50 mt-2 max-h-60 overflow-y-auto">
           {suggestions.map((title, index) => (
             <li
               key={index}
-              className="p-2 hover:bg-gray-200 cursor-pointer"
+              className="p-3 hover:bg-red-600 hover:text-white cursor-pointer transition"
               onClick={() => handleSelect(title)}
             >
               {title}
