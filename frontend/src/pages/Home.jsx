@@ -20,7 +20,7 @@ function Home() {
       const { data, error } = await supabase
         .from("movies")
         .select("*")
-        .order("id", { ascending: false });
+        .order("movie_id", movies.id, { ascending: false });
 
       if (error) throw error;
 
@@ -63,46 +63,45 @@ function Home() {
 
   return (
     <div className="flex flex-col">
-  <div className="bg-red-900/10 border border-red-700 rounded-xl p-6 mx-5 mt-10 shadow-xl">
-  <div className="bg-black border border-black rounded-xl p-6 mb-8">
-  <div className="flex justify-center mb-6">
-    <SearchBar onSearch={setSearchTerm} />
-  </div>
-  <div className="text-center mb-5">
-    <h1 className="text-white">Now Playing</h1>
-    <div className="w-200 h-1 bg-red-800 mx-auto rounded-full mt-4"></div>
-    <p className="text-gray-200 text-sm mt-5 tracking-wide">
-    Featured movies - Showtimes & Availability
-  </p>
-  </div>
-  </div>
-      <MovieCarousel searchTerm={searchTerm} />
+      <div className="bg-red-900/10 border border-red-700 rounded-xl p-6 mx-5 mt-10 shadow-xl">
+        <div className="bg-black border border-black rounded-xl p-6 mb-8">
+          <div className="flex justify-center mb-6">
+            <SearchBar onSearch={setSearchTerm} />
+          </div>
+          <div className="text-center mb-5">
+            <h1 className="text-white">Now Playing</h1>
+            <div className="w-200 h-1 bg-red-800 mx-auto rounded-full mt-4"></div>
+            <p className="text-gray-200 text-sm mt-5 tracking-wide">
+              Featured movies - Showtimes & Availability
+            </p>
+          </div>
+        </div>
+        <MovieCarousel searchTerm={searchTerm} />
       </div>
       <div className="my-15">
         <div className="text-center m-5">
           <h1 className="text-white">Get Tickets</h1>
         </div>
         <div className="bg-black p-6 rounded-xl border border-neutral-800 shadow-xl mx-5">
-
-        {movies.length === 0 ? (
-          <div className="text-center text-gray-500 py-12">
-            <p className="text-xl">No movies found</p>
-          </div>
-        ) : (
-          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6 mx-5">
-            {movies.map((movie) => (
-              <MovieCard
-                key={movie.id}
-                title={movie.title}
-                rating={movie.rating}
-                runtime={movie.runtime}
-                image={movie.image_url}
-              />
-            ))}
-          </div>
-        )}
+          {movies.length === 0 ? (
+            <div className="text-center text-gray-500 py-12">
+              <p className="text-xl">No movies found</p>
+            </div>
+          ) : (
+            <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6 mx-5">
+              {movies.map((movie) => (
+                <MovieCard
+                  key={movie.id}
+                  title={movie.title}
+                  rating={movie.rating}
+                  runtime={movie.runtime}
+                  image={movie.image_url}
+                />
+              ))}
+            </div>
+          )}
+        </div>
       </div>
-    </div>
     </div>
   );
 }
