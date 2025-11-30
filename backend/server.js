@@ -102,6 +102,71 @@ app.delete("/logout", async (req, res) => {
   }
 });
 
+app.post("/cart", requireAuth, async (req, res) => {
+  try {
+    const user = req.user;
+    const { product_id, quantity } = req.body;
+
+    if (!product_id || !quantity) {
+      return res.status(400).json({ error: "error" });
+    }
+
+    const { data: cart, error: cartError } = await supabase
+      .from("carts")
+      .select("id")
+      .eq("user_id", req.user.id)
+      .single();
+
+    if (cartError || !cart) {
+      console.error(cartError);
+      return res.status(404).json({ error: "Cart not found for user" });
+    }
+
+    const { data: newItem, error: insertError } = await supabase
+      .from("cart_items")
+      .insert({ cart_id: cart.id, product_id, quantity })
+      .select("*")
+      .single();
+
+    if (insertError) {
+      console.error(insertError);
+      return res.status(500).json({ error: "Failed to add cart item" });
+    }
+
+    res.status(201).json(newItem);
+  } catch (err) {
+    console.error("Unexpected error:", err);
+    res.status(500).json({ error: "Internal server error" });
+  }
+});
+
+app.get("/cart", requireAuth, async (req, res) => {
+  try {
+    const { data: cart, error: cartError } = await supabase
+      .from("carts")
+      .select("id")
+      .eq("user_id", req.user.id)
+      .single();
+
+    if (cartError || !cart) {
+      console.error(cartError);
+    }
+
+    const { data: items, error: itemsError } = await supabase
+      .from("cart_items")
+      .select("*")
+      .eq("cart_id", cart.id);
+
+    if (itemsError || !items) {
+      console.error(itemsError);
+    }
+    res.json({ cart_id: cart.id, items });
+  } catch (err) {
+    console.error("Unexpected error:", err);
+    res.status(500).json({ error: "Internal server error" });
+  }
+});
+
 app.listen(PORT, () => {
   console.log(`Server running on Port ${PORT}`);
 });
