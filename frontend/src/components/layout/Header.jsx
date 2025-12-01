@@ -38,7 +38,7 @@ function Header() {
       <Link to="/" style={linkStyle}>
         <h1 className="flex items-center gap-2">
           ANC Movies
-          <span className="text-yellow-400 text-5xl">
+          <span className="text-red-500 text-5xl">
             <PiFilmSlate />
           </span>
         </h1>

@@ -5,18 +5,18 @@ function MovieCard(props) {
   const { title, image, runtime, rating } = props;
 
   return (
-    <div className="mx-auto my-5">
-      <div className="bg-black">
+    <div className="mx-auto my-6 w-80">
+      <div className="bg-black rounded-xl border border-neutral-800 shadow-lg p-4 w-64">
         <img
           src={image}
           alt="movie poster"
-          className="border-b-8 border-white max-h-[600px]"
+          className="w-full h-80 object-cover"
         />
-        <div className="h-38 py-3 pl-3">
-          <h2 className="lg:text-lg md:text-xs sm:text-xs text-white font-bold w-64">
+        <div className="mt-3">
+          <h2 className="text-white font-bold text-lg">
             {title}
           </h2>
-          <p className="text-sm text-white">
+          <p className="text-gray-300 text-sm mb-2">
             {runtime} | {rating}
           </p>
           <GetMovie />

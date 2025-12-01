@@ -3,7 +3,6 @@ import { FaChevronRight, FaChevronLeft } from "react-icons/fa";
 import MovieCard from "./Moviecard";
 
 const MovieCarousel = () => {
-  const [current, setCurrent] = useState(0);
   const items = [
     <MovieCard
       title="Self-Help (2025)"
@@ -47,10 +46,34 @@ const MovieCarousel = () => {
       runtime="2 hr 42 min"
       rating="R"
     />,
+    <MovieCard
+    title="Inside Out 2 (2024)"
+    link=""
+    image="https://images.fandango.com/ImageRenderer/200/0/redesign/static/img/default_poster--dark-mode.png/0/images/masterrepository/Fandango/234178/insideout2-posterart.jpg"
+    runtime="1 hr 36 min"
+    rating="PG"
+    />,
+    <MovieCard
+    title="Wicked: For Good (2025)"
+    link=""
+    image="https://images.fandango.com/ImageRenderer/200/0/redesign/static/img/default_poster--dark-mode.png/0/images/masterrepository/Fandango/238985/WK2_Adv1Sheet2_Reach_RGB_3.jpg"
+    runtime="2 hr 17 min"
+    rating="PG"
+    />,
   ];
 
-  const next = () => setCurrent((current + 1) % items.length);
-  const prev = () => setCurrent((current - 1 + items.length) % items.length);
+  const [index, setIndex] = useState(0);
+
+  const ITEMS_PER_PAGE = 4;
+  const totalPages = Math.ceil(items.length / ITEMS_PER_PAGE);
+  
+  const next = () => {
+    setIndex((prev) => (prev + 1) % totalPages);
+  };
+  
+  const prev = () => {
+    setIndex((prev) => (prev - 1 + totalPages) % totalPages);
+  };
 
   //UseEffect for whenever I click off the page, resets the target to null. Clutch for any porject so im making a comment on it just so I never forget this, even though I never leave comments on anything -ibrahim
   useEffect(() => {
@@ -65,33 +88,27 @@ const MovieCarousel = () => {
   }, []);
 
   return (
-    <div className="relative m-10">
+    <div className="relative m-10 bg-black p-6 rounded-xl border border-black-700 shadow-xl">
       <button
         onClick={prev}
-        className="absolute left-0 top-1/2 -translate-y-1/2 -translate-x-12 z-50 bg-white/80 p-3 rounded-full shadow-lg hover:bg-white hidden sm:block"
+        className="absolute left-0 top-1/2 -translate-y-1/2 -translate-x-12 
+        bg-red-500/60 hover:bg-red-500 p-4 rounded-full shadow-lg 
+        shadow-red-500/30 transition-all duration-200"
       >
-        <FaChevronLeft className="text-2xl" />
+        <FaChevronLeft className="text-white text-2xl" />
       </button>
 
-      <div className="item-grid grid lg:grid-cols-6 md:grid-cols-4 sm:grid-cols-2 grid-cols-1 gap-4 justify-items-center">
-        {items.map((item, i) => (
-          <div
-            key={i}
-            className={`col-span-1 ${
-              i === current ? "scale-110 z-50" : "scale-100"
-            } cursor-pointer transition-transform`}
-            onClick={() => setCurrent(i)}
-          >
-            {item}
-          </div>
-        ))}
+      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-10 justify-items-center transition-all duration-300">
+    {items.slice(index * ITEMS_PER_PAGE, index * ITEMS_PER_PAGE + ITEMS_PER_PAGE)}
       </div>
 
       <button
         onClick={next}
-        className="absolute right-0 top-1/2 -translate-y-1/2 translate-x-12 z-50 bg-white/80 p-3 rounded-full shadow-lg hover:bg-white hidden sm:block"
+        className="absolute right-0 top-1/2 -translate-y-1/2 translate-x-12 
+        bg-red-500/60 hover:bg-red-500 p-4 rounded-full shadow-lg 
+        shadow-red-500/30 transition-all duration-200"
       >
-        <FaChevronRight className="text-2xl" />
+        <FaChevronRight className="text-white text-2xl" />
       </button>
     </div>
   );
