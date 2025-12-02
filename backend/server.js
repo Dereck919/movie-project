@@ -13,12 +13,27 @@ app.use(express.json());
 app.use(cookieParser());
 app.use(
   cors({
-    origin: ["http://localhost:5173/"],
+    origin: ["http://localhost:5173"],
     credentials: true,
   })
 );
 
 const requireAuth = async (req, res, next) => {
+  const auth = req.headers.authorization || "";
+  const token = auth.startsWith("Bearer ") ? auth.split(" ")[1] : null;
+  if (!token)
+    return res.status(401).json({ error: "Missing or invalid access token" });
+
+  const { data, error } = await supabase.auth.getUser(token);
+
+  if (error || !data?.user)
+    return res.status(401).json({ error: "Invalid or expired session" });
+
+  req.user = data.user;
+  next();
+};
+
+const requireAuthPostmanTest = async (req, res, next) => {
   const token = req.cookies?.access_token;
   if (!token)
     return res.status(401).json({ error: "Missing or invalid access token" });
@@ -53,7 +68,7 @@ app.post("/signup", async (req, res) => {
   }
 });
 
-app.get("/login", async (req, res) => {
+app.post("/login", async (req, res) => {
   try {
     const { email, password } = req.body;
     if (!email || !password)
@@ -71,20 +86,19 @@ app.get("/login", async (req, res) => {
 
     res.cookie("access_token", accessToken, {
       httpOnly: true,
-      secure: true,
+      secure: false,
       sameSite: "none",
       path: "/",
       maxAge: 7 * 24 * 60 * 60 * 1000,
     });
 
-    res.status(200).json({ message: "Login successful", user: data.user });
+    res.status(200).json({
+      message: "Login successful",
+      user: data.user,
+    });
   } catch (err) {
     res.status(500).json({ error: "Login request failed" });
   }
-});
-
-app.get("/me", requireAuth, (req, res) => {
-  res.status(200).json({ user: req.user });
 });
 
 app.delete("/logout", async (req, res) => {
@@ -102,7 +116,11 @@ app.delete("/logout", async (req, res) => {
   }
 });
 
-app.post("/cart", requireAuth, async (req, res) => {
+app.get("/me", requireAuthPostmanTest, (req, res) => {
+  res.status(200).json({ user: req.user });
+});
+
+app.post("/cart", requireAuthPostmanTest, async (req, res) => {
   try {
     const user = req.user;
     const { product_id, quantity } = req.body;
@@ -114,7 +132,7 @@ app.post("/cart", requireAuth, async (req, res) => {
     const { data: cart, error: cartError } = await supabase
       .from("carts")
       .select("id")
-      .eq("user_id", req.user.id)
+      .eq("user_id", user.id)
       .single();
 
     if (cartError || !cart) {

@@ -50,6 +50,9 @@ function Header() {
         <Link to="/ticket" style={linkStyle}>
           My Tickets
         </Link>
+        <Link to="/cart" style={linkStyle}>
+          Cart
+        </Link>
         <Link to="/authentication" style={linkStyle}>
           Login
         </Link>

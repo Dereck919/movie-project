@@ -5,7 +5,6 @@ import supabase from "../supabaseClient";
 
 function Ticket() {
   const [user, setUser] = useState(null);
-  const [error, setError] = useState(null);
 
   useEffect(() => {
     const getUser = async () => {
@@ -30,10 +29,8 @@ function Ticket() {
     <div className="flex flex-row">
       <div className="">
         <h2 className="my-10 mx-4 pr-20 pb-130 text-white font-normal">
-          Welcome! 
-          <div className="font-semibold">
-            {user.email}
-          </div>
+          Welcome!
+          <div className="font-semibold">{user.email}</div>
         </h2>
       </div>
       <div className="">
