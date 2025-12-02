@@ -1,9 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
-<<<<<<< HEAD
 import supabase from "../supabaseClient";
 import useSupabaseUser from "../hooks/useSupabaseUser";
-=======
 import { motion } from "framer-motion";
 
 const demoItems = [
@@ -14,7 +12,6 @@ const demoItems = [
     price: 12.99,
   },
 ];
->>>>>>> cart-checkout
 
 function Cart() {
   const [cartItems, setCartItems] = useState([]);
@@ -36,35 +33,12 @@ function Cart() {
   }, [session]);
 
   return (
-<<<<<<< HEAD
-    <div className="p-6">
-      <h1 className="text-2xl font-bold mb-4">Your Cart</h1>
-
-      {cartItems.length === 0 ? (
-        <p>Your cart is empty.</p>
-      ) : (
-        cartItems.map((item) => (
-          <div
-            key={item.id.image}
-            className="border p-4 rounded mb-3 bg-white shadow"
-          >
-            <p>
-              <strong>Product:</strong> {item.product_id}
-            </p>
-            <p>
-              <strong>Quantity:</strong> {item.quantity}
-            </p>
-          </div>
-        ))
-      )}
-=======
     <div className="min-h-screen bg-linear-to-br from-slate-950 via-slate-900 to-slate-950 text-slate-100 flex items-center justify-center px-4 py-10">
       <motion.div
         initial={{ opacity: 0, y: 16 }}
         animate={{ opacity: 1, y: 0 }}
         className="w-full max-w-5xl rounded-2xl border border-amber-500/40 bg-slate-900/70 backdrop-blur-xl shadow-[0_0_50px_rgba(0,0,0,0.65)] p-6 md:p-10 space-y-8"
       >
-        
         <div className="space-y-2">
           <div className="flex justify-between text-[11px] md:text-xs text-slate-400">
             <span>Cart</span>
@@ -72,9 +46,14 @@ function Cart() {
             <span>Confirmation</span>
           </div>
           <div className="w-full bg-slate-800/60 rounded-full h-2 overflow-hidden">
-            <div className="h-full bg-linear-to-r from-amber-400 to-amber-500 rounded-full" style={{ width: "33%" }} />
+            <div
+              className="h-full bg-linear-to-r from-amber-400 to-amber-500 rounded-full"
+              style={{ width: "33%" }}
+            />
           </div>
-          <p className="text-xs text-slate-400">Step 1 of 3 · Review your cart</p>
+          <p className="text-xs text-slate-400">
+            Step 1 of 3 · Review your cart
+          </p>
         </div>
 
         <div className="flex items-center justify-between gap-4">
@@ -93,14 +72,12 @@ function Cart() {
           </div>
         </div>
 
-   
         <div className="hidden md:flex text-xs md:text-sm text-slate-400 border-b border-slate-700 pb-2 px-2">
           <span className="w-2/3">Movie</span>
           <span className="w-1/6 text-right">Qty</span>
           <span className="w-1/6 text-right">Price</span>
         </div>
 
-    
         <div className="space-y-4">
           {demoItems.map((item, index) => (
             <motion.div
@@ -112,8 +89,7 @@ function Cart() {
             >
               {/* movie poster placeholder for now */}
               <div className="flex items-center gap-3 w-full md:w-2/3">
-                <div className="w-[60px] h-[84px] md:w-[70px] md:h-[98px] rounded-lg bg-linear-to-b from-slate-600/70 via-slate-800 to-black flex items-center justify-center text-xs text-slate-200 border border-slate-600/70 shadow-inner">
-                </div>
+                <div className="w-[60px] h-[84px] md:w-[70px] md:h-[98px] rounded-lg bg-linear-to-b from-slate-600/70 via-slate-800 to-black flex items-center justify-center text-xs text-slate-200 border border-slate-600/70 shadow-inner"></div>
                 <div>
                   <p className="text-sm md:text-base font-medium text-slate-50">
                     {item.title}
@@ -189,7 +165,6 @@ function Cart() {
             <span>Total</span>
             <span>$10000.00</span>
           </div>
-         
         </div>
 
         {/* Bottom buttons */}
@@ -209,9 +184,30 @@ function Cart() {
           </Link>
         </div>
       </motion.div>
->>>>>>> cart-checkout
     </div>
   );
 }
 
 export default Cart;
+
+// <div className="p-6">
+//   <h1 className="text-2xl font-bold mb-4">Your Cart</h1>
+
+//   {cartItems.length === 0 ? (
+//     <p>Your cart is empty.</p>
+//   ) : (
+//     cartItems.map((item) => (
+//       <div
+//         key={item.id}
+//         className="border p-4 rounded mb-3 bg-white shadow"
+//       >
+//         <p>
+//           <strong>Product:</strong> {item.product_id}
+//         </p>
+//         <p>
+//           <strong>Quantity:</strong> {item.quantity}
+//         </p>
+//       </div>
+//     ))
+//   )}
+// </div>
