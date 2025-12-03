@@ -15,22 +15,37 @@ const demoItems = [
 
 function Cart() {
   const [cartItems, setCartItems] = useState([]);
+  const [price, setPrice] = useState(0);
   const { session } = useSupabaseUser();
 
   useEffect(() => {
     if (!session) return;
 
     async function fetchCart() {
-      const response = await fetch("http://localhost:8000/cart", {
-        headers: {
-          Authorization: `Bearer ${session.access_token}`,
-        },
-      });
-      const data = await response.json();
-      setCartItems(data.items);
+      try {
+        const response = await fetch("http://localhost:8000/cart", {
+          headers: {
+            Authorization: `Bearer ${session.access_token}`,
+          },
+        });
+        const data = await response.json();
+        console.log(data.items);
+        setCartItems(data.items || []);
+      } catch {
+        console.error("Error fetching cart:", error);
+        setCartItems([]);
+      }
     }
     fetchCart();
   }, [session]);
+
+  useEffect(() => {
+    let total = 0;
+    for (let i = 0; i < cartItems.length; i++) {
+      total += cartItems[i].price;
+    }
+    setPrice(total);
+  }, [cartItems]);
 
   return (
     <div className="min-h-screen bg-linear-to-br from-slate-950 via-slate-900 to-slate-950 text-slate-100 flex items-center justify-center px-4 py-10">
@@ -79,7 +94,7 @@ function Cart() {
         </div>
 
         <div className="space-y-4">
-          {demoItems.map((item, index) => (
+          {cartItems.map((item, index) => (
             <motion.div
               key={item.id}
               initial={{ opacity: 0, y: 8 }}
@@ -89,12 +104,16 @@ function Cart() {
             >
               {/* movie poster placeholder for now */}
               <div className="flex items-center gap-3 w-full md:w-2/3">
-                <div className="w-[60px] h-[84px] md:w-[70px] md:h-[98px] rounded-lg bg-linear-to-b from-slate-600/70 via-slate-800 to-black flex items-center justify-center text-xs text-slate-200 border border-slate-600/70 shadow-inner"></div>
+                <div className="w-[60px] h-[84px] md:w-[70px] md:h-[98px] rounded-lg bg-linear-to-b from-slate-600/70 via-slate-800 to-black flex items-center justify-center text-xs text-slate-200 border border-slate-600/70 shadow-inner">
+                  <img src={item.movies.image_url} alt="" />
+                </div>
                 <div>
                   <p className="text-sm md:text-base font-medium text-slate-50">
-                    {item.title}
+                    {item.movies.title}
                   </p>
-                  <p className="text-xs text-slate-400">{item.tagline}</p>
+                  <p className="text-xs text-slate-400">
+                    {item.movies.rating} • {item.movies.runtime}
+                  </p>
                   <p className="mt-1 text-[11px] uppercase tracking-wide text-amber-300">
                     temp hard coded
                   </p>
@@ -155,15 +174,15 @@ function Cart() {
         <div className="rounded-xl border border-slate-700 bg-slate-950/40 p-4 md:p-5 space-y-2">
           <div className="flex justify-between text-sm text-slate-300">
             <span>Subtotal</span>
-            <span>$10000.00</span>
+            <span>${price.toFixed(2)}</span>
           </div>
           <div className="flex justify-between text-sm text-slate-400">
             <span>Tax (7.75%)</span>
-            <span>$0.00</span>
+            <span>${(price * 0.0775).toFixed(2)}</span>
           </div>
           <div className="flex justify-between text-base md:text-lg font-semibold text-slate-50 pt-2 border-t border-slate-700">
             <span>Total</span>
-            <span>$10000.00</span>
+            <span>${(price * 0.0775 + price).toFixed(2)}</span>
           </div>
         </div>
 
@@ -189,25 +208,3 @@ function Cart() {
 }
 
 export default Cart;
-
-// <div className="p-6">
-//   <h1 className="text-2xl font-bold mb-4">Your Cart</h1>
-
-//   {cartItems.length === 0 ? (
-//     <p>Your cart is empty.</p>
-//   ) : (
-//     cartItems.map((item) => (
-//       <div
-//         key={item.id}
-//         className="border p-4 rounded mb-3 bg-white shadow"
-//       >
-//         <p>
-//           <strong>Product:</strong> {item.product_id}
-//         </p>
-//         <p>
-//           <strong>Quantity:</strong> {item.quantity}
-//         </p>
-//       </div>
-//     ))
-//   )}
-// </div>

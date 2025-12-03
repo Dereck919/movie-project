@@ -15,6 +15,12 @@ export default function AuthButton2({ email, password }) {
         console.error("stupid", error.message);
       } else {
         console.log(data);
+        const { data: signInData, error: signInError } =
+          await supabase.auth.signInWithPassword({
+            email,
+            password,
+          });
+
         navigate("/ticket", { replace: true });
       }
     } catch (err) {
