@@ -6,7 +6,10 @@ import { createClient } from "@supabase/supabase-js";
 const PORT = process.env.PORT;
 const supabaseUrl = process.env.SUPABASE_URL;
 const supabaseKey = process.env.SUPABASE_ANON_KEY;
+const admin = process.env.SUPABASE_SERVICE_ROLE_KEY;
 const supabase = createClient(supabaseUrl, supabaseKey);
+
+const supabaseAdmin = createClient(supabaseUrl, admin);
 
 const app = express();
 app.use(express.json());
@@ -123,9 +126,9 @@ app.get("/me", requireAuthPostmanTest, (req, res) => {
 app.post("/cart", requireAuthPostmanTest, async (req, res) => {
   try {
     const user = req.user;
-    const { product_id, quantity } = req.body;
+    const { product_id, quantity, price } = req.body;
 
-    if (!product_id || !quantity) {
+    if (!product_id || !quantity || !price) {
       return res.status(400).json({ error: "error" });
     }
 
@@ -142,7 +145,7 @@ app.post("/cart", requireAuthPostmanTest, async (req, res) => {
 
     const { data: newItem, error: insertError } = await supabase
       .from("cart_items")
-      .insert({ cart_id: cart.id, product_id, quantity })
+      .insert({ cart_id: cart.id, product_id, quantity, price })
       .select("*")
       .single();
 
@@ -160,6 +163,34 @@ app.post("/cart", requireAuthPostmanTest, async (req, res) => {
 
 app.get("/cart", requireAuth, async (req, res) => {
   try {
+    const { data: cart, error: cartError } = await supabaseAdmin
+      .from("carts")
+      .select("id")
+      .eq("user_id", req.user.id)
+      .maybeSingle();
+
+    if (cartError || !cart) {
+      console.error(cartError);
+      console.log(req.user.id);
+    }
+
+    const { data: items, error: itemsError } = await supabaseAdmin
+      .from("cart_items")
+      .select(`*, movies(*)`)
+      .eq("cart_id", cart.id);
+
+    if (itemsError || !items) {
+      console.error(itemsError);
+    }
+    res.json({ cart_id: cart.id, items: items ?? [] });
+  } catch (err) {
+    console.error("Unexpected error:", err);
+    res.status(500).json({ error: "Internal server error" });
+  }
+});
+
+app.get("/cartest", requireAuthPostmanTest, async (req, res) => {
+  try {
     const { data: cart, error: cartError } = await supabase
       .from("carts")
       .select("id")
@@ -167,18 +198,19 @@ app.get("/cart", requireAuth, async (req, res) => {
       .single();
 
     if (cartError || !cart) {
+      console.log("no cart silly");
       console.error(cartError);
     }
 
     const { data: items, error: itemsError } = await supabase
       .from("cart_items")
-      .select("*")
+      .select(`*, movies(*)`)
       .eq("cart_id", cart.id);
 
     if (itemsError || !items) {
       console.error(itemsError);
     }
-    res.json({ cart_id: cart.id, items });
+    res.json({ cart_id: cart.id, items: items ?? [] });
   } catch (err) {
     console.error("Unexpected error:", err);
     res.status(500).json({ error: "Internal server error" });
