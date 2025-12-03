@@ -25,7 +25,7 @@ export default function AuthButton2({ email, password }) {
   return (
     <div>
       <button
-        className="mt-2 w-full border-2 border-purple-500 text-purple-300 rounded-lg p-2.5 font-medium hover:bg-purple-700 hover:text-white transition"
+        className="mt-2 w-full border-2 border-red-600 text-red-300 rounded-lg p-2.5 font-medium hover:bg-red-500/30 hover:text-white transition"
         onClick={signup}
       >
         Sign Up
