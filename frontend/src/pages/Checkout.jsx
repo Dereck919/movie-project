@@ -12,7 +12,7 @@ export default function Checkout() {
     apartment: "",
     city: "",
     state: "",
-    zip: "",
+    zipcode: "",
     country: "",
     nameOnCard: "",
     cardNumber: "",
@@ -51,9 +51,14 @@ export default function Checkout() {
             <span>Checkout</span>
           </div>
           <div className="w-full bg-slate-800/60 rounded-full h-2 overflow-hidden">
-            <div className="h-full bg-linear-to-r from-amber-400 to-amber-500 rounded-full" style={{ width: "66%" }} />
+            <div
+              className="h-full bg-linear-to-r from-amber-400 to-amber-500 rounded-full"
+              style={{ width: "66%" }}
+            />
           </div>
-          <p className="text-xs text-slate-400">Step 2 of 3 · Payment & billing</p>
+          <p className="text-xs text-slate-400">
+            Step 2 of 3 · Payment & billing
+          </p>
         </div>
 
         {/* Header */}
@@ -247,9 +252,9 @@ export default function Checkout() {
                   </label>
                   <input
                     type="text"
-                    name="Postal Zipcode"
+                    name="zipcode"
                     required
-                    value={formData.zip}
+                    value={formData.zipcode}
                     onChange={handleChange}
                     placeholder="Postal Zipcode"
                     className="w-full rounded-lg bg-slate-950 border border-slate-700 px-3 py-2 text-xs md:text-sm
@@ -349,11 +354,9 @@ export default function Checkout() {
 
               {paymentMethod !== "card" && (
                 <p className="text-xs md:text-sm text-slate-400 mt-2">
-                  
                   <span className="font-semibold capitalize">
                     {paymentMethod}
                   </span>{" "}
-                  
                 </p>
               )}
             </div>
