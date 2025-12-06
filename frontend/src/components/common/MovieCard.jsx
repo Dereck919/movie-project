@@ -2,7 +2,7 @@ import React from "react";
 import GetMovie from "./GetMovie";
 
 function MovieCard(props) {
-  const { title, image, runtime, rating } = props;
+  const { title, image, runtime, rating, id, session } = props;
 
   return (
     <div className="mx-auto my-6 w-80">
@@ -13,13 +13,11 @@ function MovieCard(props) {
           className="w-full h-80 object-cover"
         />
         <div className="mt-3">
-          <h2 className="text-white font-bold text-lg">
-            {title}
-          </h2>
+          <h2 className="text-white font-bold text-lg">{title}</h2>
           <p className="text-gray-300 text-sm mb-2">
             {runtime} | {rating}
           </p>
-          <GetMovie />
+          <GetMovie id={id} session={session} />
         </div>
       </div>
     </div>

@@ -1,8 +1,8 @@
 import React, { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
-import supabase from "../supabaseClient";
 import useSupabaseUser from "../hooks/useSupabaseUser";
 import { motion } from "framer-motion";
+import DeleteCartButton from "../components/common/DeleteCartButton";
 
 const demoItems = [
   {
@@ -29,7 +29,6 @@ function Cart() {
           },
         });
         const data = await response.json();
-        console.log(data.items);
         setCartItems(data.items || []);
       } catch {
         console.error("Error fetching cart:", error);
@@ -142,6 +141,7 @@ function Cart() {
                 <div className="w-1/2 text-right text-sm font-semibold text-slate-100">
                   ${item.price.toFixed(2)}
                 </div>
+                <DeleteCartButton session={session} id={item.id} />
               </div>
             </motion.div>
           ))}

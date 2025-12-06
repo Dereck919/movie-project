@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { SearchBar } from "../components/common/SearchBar.jsx";
-import MovieCard from "../components/common/Moviecard.jsx";
+import MovieCard from "../components/common/MovieCard.jsx";
 import MovieCarousel from "../components/common/MovieCarousel.jsx";
 import supabase from "../supabaseClient.js";
 
@@ -96,6 +96,7 @@ function Home() {
                   rating={movie.rating}
                   runtime={movie.runtime}
                   image={movie.image_url}
+                  id={movie.movie_id}
                 />
               ))}
             </div>
