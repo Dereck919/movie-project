@@ -101,7 +101,7 @@ function Cart() {
               transition={{ delay: 0.05 * index }}
               className="flex flex-col md:flex-row items-start md:items-center gap-3 md:gap-4 rounded-xl border border-slate-800 bg-slate-950/40 px-3 py-3 md:px-4 md:py-4 hover:border-amber-400/70 hover:shadow-[0_0_25px_rgba(245,158,11,0.3)] transition"
             >
-              {/* movie poster placeholder for now */}
+              {/* movie poster */}
               <div className="flex items-center gap-3 w-full md:w-2/3">
                 <div className="w-[60px] h-[84px] md:w-[70px] md:h-[98px] rounded-lg bg-linear-to-b from-slate-600/70 via-slate-800 to-black flex items-center justify-center text-xs text-slate-200 border border-slate-600/70 shadow-inner">
                   <img src={item.movies.image_url} alt="" />
@@ -119,7 +119,7 @@ function Cart() {
                 </div>
               </div>
 
-              {/* Qty + price */}
+              {/* q + price */}
               <div className="flex items-center justify-between w-full md:w-1/3 gap-4 md:gap-2">
                 <div className="flex items-center justify-end md:justify-center gap-2 w-1/2">
                   <button
@@ -145,11 +145,6 @@ function Cart() {
               </div>
             </motion.div>
           ))}
-
-          {/* Empty cart cinematic note (if you later hide demo items) */}
-          {/* 
-          <motion.div ...>🍿 Your cart is empty</motion.div>
-          */}
         </div>
 
         {/* Promo code */}

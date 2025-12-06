@@ -30,7 +30,7 @@ function DeleteCartButton({ session, id }) {
     <div>
       <button
         onClick={handleDelete}
-        class="px-1 py-1 text-white rounded-md cursor-pointer"
+        className="px-1 py-1 text-white rounded-md cursor-pointer"
       >
         <span>
           <AiOutlineDelete className="hover:text-red-500" />
