@@ -199,6 +199,45 @@ app.post("/cart", requireAuth, async (req, res) => {
   }
 });
 
+app.post("/updateCart", requireAuth, async (req, res) => {
+  try {
+    const user = req.user;
+    const { quantity, id } = req.body;
+
+    if (!quantity) {
+      return res.status(400).json({ error: "error" });
+    }
+
+    const { data: cart, error: cartError } = await supabaseAdmin
+      .from("carts")
+      .select("id")
+      .eq("user_id", user.id)
+      .single();
+
+    if (cartError || !cart) {
+      console.error(cartError);
+      return res.status(404).json({ error: "Cart not found for user" });
+    }
+
+    const { data: quant, error: updateError } = await supabaseAdmin
+      .from("cart_items")
+      .update({ quantity })
+      .eq("id", id)
+      .select()
+      .single();
+
+    if (updateError) {
+      console.error(updateError);
+      return res.status(500).json({ error: "Failed to update" });
+    }
+
+    res.status(201).json(quant);
+  } catch (err) {
+    console.error("Unexpected error:", err);
+    res.status(500).json({ error: "Internal server error" });
+  }
+});
+
 app.get("/cart", requireAuth, async (req, res) => {
   try {
     const { data: cart, error: cartError } = await supabaseAdmin
