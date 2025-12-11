@@ -1,22 +1,14 @@
 import React, { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
-import useSupabaseUser from "../hooks/useSupabaseUser";
 import { motion } from "framer-motion";
 import DeleteCartButton from "../components/common/DeleteCartButton";
-
-const demoItems = [
-  {
-    id: 1,
-    title: "CS 250 Lecture Film",
-    tagline: "Horror • 1h 15m",
-    price: 12.99,
-  },
-];
+import { useAuth } from "../context/AuthProvider";
 
 function Cart() {
   const [cartItems, setCartItems] = useState([]);
   const [price, setPrice] = useState(0);
-  const { session } = useSupabaseUser();
+  const [count, setCount] = useState(0);
+  const { session } = useAuth();
 
   useEffect(() => {
     if (!session) return;
@@ -30,6 +22,7 @@ function Cart() {
         });
         const data = await response.json();
         setCartItems(data.items || []);
+        setCount(data.items.quantity);
       } catch {
         console.error("Error fetching cart:", error);
         setCartItems([]);
@@ -45,6 +38,29 @@ function Cart() {
     }
     setPrice(total);
   }, [cartItems]);
+
+  async function updateCart(quantity, id) {
+    const payload = { quantity, id };
+    try {
+      const response = await fetch("http://localhost:8000/updateCart", {
+        method: "POST",
+        headers: {
+          Authorization: `Bearer ${session.access_token}`,
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify(payload),
+      });
+
+      if (!response.ok) {
+        throw new Error(`Request failed: ${response.status}`);
+      }
+      const data = await response.json();
+      console.log("updated", data);
+      window.location.reload();
+    } catch (error) {
+      console.error("Error fetching cart:", error);
+    }
+  }
 
   return (
     <div className="min-h-screen bg-linear-to-br from-slate-950 via-slate-900 to-slate-950 text-slate-100 flex items-center justify-center px-4 py-10">
@@ -113,9 +129,6 @@ function Cart() {
                   <p className="text-xs text-slate-400">
                     {item.movies.rating} • {item.movies.runtime}
                   </p>
-                  <p className="mt-1 text-[11px] uppercase tracking-wide text-amber-300">
-                    temp hard coded
-                  </p>
                 </div>
               </div>
 
@@ -125,15 +138,18 @@ function Cart() {
                   <button
                     type="button"
                     className="w-7 h-7 rounded-full border border-slate-600 text-xs text-slate-200 flex items-center justify-center hover:bg-slate-800 transition"
-                    disabled
+                    onClick={() => updateCart(item.quantity - 1, item.id)}
+                    disabled={item.quantity == 1}
                   >
                     −
                   </button>
-                  <span className="text-sm text-slate-100">1</span>
+                  <span className="text-sm text-slate-100">
+                    {item.quantity}
+                  </span>
                   <button
                     type="button"
                     className="w-7 h-7 rounded-full border border-slate-600 text-xs text-slate-200 flex items-center justify-center hover:bg-slate-800 transition"
-                    disabled
+                    onClick={() => updateCart(item.quantity + 1, item.id)}
                   >
                     +
                   </button>

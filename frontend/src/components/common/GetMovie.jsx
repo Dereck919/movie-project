@@ -1,5 +1,6 @@
 import React from "react";
 import useSupabaseUser from "../../hooks/useSupabaseUser";
+import { useAuth } from "../../context/AuthProvider";
 
 function GetMovie({ id }) {
   const postData = {
@@ -7,7 +8,7 @@ function GetMovie({ id }) {
     quantity: 1,
     price: "18",
   };
-  const { session } = useSupabaseUser();
+  const { session } = useAuth();
   async function addToCart() {
     if (!session) return;
     try {
@@ -37,7 +38,7 @@ function GetMovie({ id }) {
   hover:bg-red-600 hover:text-white hover:shadow-lg hover:shadow-red-500/40 transition-all duration-200"
         onClick={addToCart}
       >
-        Get Ticket
+        Add to Cart
       </button>
     </div>
   );

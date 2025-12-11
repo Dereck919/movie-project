@@ -69,8 +69,7 @@ const MovieCarousel = () => {
     setIndex((prev) => (prev - 1 + totalPages) % totalPages);
   };
 
-  //UseEffect for whenever I click off the page, resets the target to null. Clutch for any porject so im making a comment on it just so I never forget this, even though I never leave comments on anything -ibrahim
-  // useEffect(() => {
+  //UseEffect for whenever I click off the page, resets the target to null.
   //   const handleClickOutside = (e) => {
   //     if (!e.target.closest(".item-grid")) {
   //       setIndex(null);
@@ -87,7 +86,7 @@ const MovieCarousel = () => {
         onClick={prev}
         className="absolute left-0 top-1/2 -translate-y-1/2 -translate-x-12 
         bg-red-500/60 hover:bg-red-500 p-4 rounded-full shadow-lg 
-        shadow-red-500/30 transition-all duration-200"
+        shadow-red-500/30 transition-all duration-200 "
       >
         <FaChevronLeft className="text-white text-2xl" />
       </button>

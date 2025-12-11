@@ -17,6 +17,7 @@ export const SearchBar = ({ onSearch }) => {
 
   const handleChange = (e) => {
     const value = e.target.value;
+    setInput(value);
     if (onSearch) onSearch(value);
 
     if (value.trim() === "") {
