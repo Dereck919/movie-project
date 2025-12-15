@@ -60,10 +60,7 @@ export default function SignupInCommon({ onSwitch }) {
             </div>
             {/* Email */}
             <div>
-              <label
-                htmlFor="email"
-                className="text-sm font-medium text-white"
-              >
+              <label htmlFor="email" className="text-sm font-medium text-white">
                 Email<span className="text-red-400">*</span>
               </label>
               <input
@@ -156,12 +153,12 @@ export default function SignupInCommon({ onSwitch }) {
           </form>
 
           <p className="text-sm mt-6 text-center text-white">
-            Don’t have an account?{" "}
+            Already have an account?{" "}
             <button
               onClick={onSwitch}
               className="hover:underline hover:text-blue-500"
             >
-              Sign up
+              Sign in
             </button>
           </p>
         </div>

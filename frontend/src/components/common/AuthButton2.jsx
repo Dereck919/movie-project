@@ -13,16 +13,8 @@ export default function AuthButton2({ email, password }) {
 
       if (error) {
         console.error("stupid", error.message);
-      } else {
-        console.log(data);
-        const { data: signInData, error: signInError } =
-          await supabase.auth.signInWithPassword({
-            email,
-            password,
-          });
-
-        navigate("/ticket", { replace: true });
       }
+      console.log(data);
     } catch (err) {
       console.error("stupid 2", err);
     }
