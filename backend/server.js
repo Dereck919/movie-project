@@ -323,6 +323,51 @@ app.delete("/cart/:id", requireAuth, async (req, res) => {
   }
 });
 
+app.post("/tickets", requireAuth, async (req, res) => {
+  const { user_id } = req.body;
+  try {
+    const user = req.user;
+
+    if (!user) {
+      return res.status(400).json({ error: "error" });
+    }
+
+    const { data: ticket, error: insertError } = await supabaseAdmin
+      .from("tickets")
+      .insert({ user_id })
+      .select("*")
+      .single();
+
+    if (insertError) {
+      console.error(insertError);
+      return res.status(500).json({ error: "Failed to create ticket" });
+    }
+
+    res.status(201).json(ticket);
+  } catch (err) {
+    console.error("Unexpected error:", err);
+    res.status(500).json({ error: "Internal server error" });
+  }
+});
+
+app.get("/tickets", requireAuth, async (req, res) => {
+  try {
+    const { data: tickets, error } = await supabaseAdmin
+      .from("tickets")
+      .select("id")
+      .eq("user_id", req.user.id)
+      .maybeSingle();
+
+    if (error || !tickets) {
+      console.error(error);
+    }
+    res.json({ tickets });
+  } catch (err) {
+    console.error("Unexpected error:", err);
+    res.status(500).json({ error: "Internal server error" });
+  }
+});
+
 app.listen(PORT, () => {
   console.log(`Server running on Port ${PORT}`);
 });

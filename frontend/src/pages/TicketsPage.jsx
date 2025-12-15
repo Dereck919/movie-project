@@ -2,9 +2,12 @@ import React from "react";
 import TicketInformation from "../components/common/TicketInformation";
 import { useEffect, useState } from "react";
 import supabase from "../supabaseClient";
+import { useAuth } from "../context/AuthProvider";
 
 function Ticket() {
   const [user, setUser] = useState(null);
+  const [id, setId] = useState(null);
+  const { session } = useAuth();
 
   useEffect(() => {
     const getUser = async () => {
@@ -23,19 +26,40 @@ function Ticket() {
     getUser();
   }, []);
 
+  useEffect(() => {
+    async function fetchTicket() {
+      try {
+        const response = await fetch("http://localhost:8000/tickets", {
+          headers: {
+            Authorization: `Bearer ${session.access_token}`,
+          },
+        });
+
+        const data = await response.json();
+        setId(data.tickets.id);
+      } catch (error) {
+        console.error("No Ticket", error);
+      }
+    }
+
+    fetchTicket();
+  }, []);
+
   if (!user) return <p>Loading...</p>;
 
   return (
-    <div className="flex flex-row">
-      <div className="">
-        <h2 className="my-10 mx-4 pr-20 pb-130 text-white font-normal">
-          Welcome!
-          <div className="font-semibold">{user.email}</div>
-        </h2>
-      </div>
-      <div className="">
-        <TicketInformation />
-      </div>
+    <div>
+      {id ? (
+        <div className="flex-row m-10">
+          <h1 className="text-white font-bold">Welcome back, {user.email}</h1>
+          <TicketInformation id={id} />
+        </div>
+      ) : (
+        <div className="grid gap-10 m-10">
+          <h1 className="text-white font-bold">Welcome back, {user.email}</h1>
+          <h2 className="text-white font-bold">No ticket found 😢</h2>
+        </div>
+      )}
     </div>
   );
 }

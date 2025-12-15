@@ -1,18 +1,19 @@
 import React from "react";
-import Ticket from "./Ticket";
 
-function TicketInformation() {
+function TicketInformation({ id }) {
+  const date = new Date();
+  const formatted = `${
+    date.getMonth() + 1
+  }/${date.getDate()}/${date.getFullYear()}`;
   return (
     <div className="my-6 flex flex-col min-h-screen">
-      <div className="mx-4 rounded-lg p-4">
-        <h2 className="text-white text-3xl font-semibold ">My Tickets</h2>
-      </div>
       <div className="">
-        <Ticket
-          date="November 32nd 2025"
-          location="Mars"
-          ticket_id="123456mfnjsandsad912381"
-        />
+        <div className="max-w-fit shadow-lg/30 p-4 pr-70 bg-white">
+          <p className="mb-1 font-semibold">Date: {formatted}</p>
+          <p className="mb-3">Location: SDSU</p>
+          <hr />
+          <p className="mt-3">Ticket ID: {id}</p>
+        </div>
       </div>
     </div>
   );

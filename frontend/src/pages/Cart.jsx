@@ -6,8 +6,8 @@ import { useAuth } from "../context/AuthProvider";
 
 function Cart() {
   const [cartItems, setCartItems] = useState([]);
-  const [price, setPrice] = useState(0);
   const [count, setCount] = useState(0);
+  const [price, setPrice] = useState(0);
   const { session } = useAuth();
 
   useEffect(() => {
@@ -208,6 +208,7 @@ function Cart() {
 
           <Link
             to="/checkout"
+            state={{ price }}
             className="inline-flex items-center justify-center rounded-full bg-amber-500 px-6 py-2.5 text-xs md:text-sm font-semibold text-slate-950 shadow-md hover:bg-amber-400 focus:outline-none focus:ring-2 focus:ring-amber-400 focus:ring-offset-2 focus:ring-offset-slate-900 transition"
           >
             Proceed to checkout

@@ -36,7 +36,9 @@ function GetMovie({ id }) {
       <button
         className="mt-2 w-full border-2 border-red-400 text-red-300 rounded-xl p-2.5 font-semibold 
   hover:bg-red-600 hover:text-white hover:shadow-lg hover:shadow-red-500/40 transition-all duration-200"
-        onClick={addToCart}
+        onClick={() => {
+          addToCart(), alert("Added to cart successfully!");
+        }}
       >
         Add to Cart
       </button>

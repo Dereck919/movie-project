@@ -1,9 +1,14 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import { motion, AnimatePresence } from "framer-motion";
+import { useLocation } from "react-router-dom";
+import { useAuth } from "../context/AuthProvider";
 
 export default function Checkout() {
   const [paymentMethod, setPaymentMethod] = useState("card");
+  const location = useLocation();
+  const price = location.state?.price;
+  const { user, session } = useAuth();
 
   const [formData, setFormData] = useState({
     email: "",
@@ -28,13 +33,37 @@ export default function Checkout() {
     }));
   }
 
-  function handleSubmit(e) {
-    e.preventDefault();
-    console.log("Checkout data:", {
-      paymentMethod,
-      ...formData,
-    });
-    alert("Demo checkout only — no real payment is processed.");
+  // function handleSubmit(e) {
+  //   e.preventDefault();
+  //   console.log("Checkout data:", {
+  //     paymentMethod,
+  //     ...formData,
+  //   });
+  //   alert("Demo checkout only — no real payment is processed.");
+  // }
+
+  async function getTicket() {
+    if (!session) return;
+    const user_id = user.id;
+    try {
+      const response = await fetch("http://localhost:8000/tickets", {
+        method: "POST",
+        headers: {
+          Authorization: `Bearer ${session.access_token}`,
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify({ user_id }),
+      });
+
+      if (!response.ok) {
+        throw new Error(`Request failed: ${response.status}`);
+      }
+      const data = await response.json();
+      console.log("Bought ticket", data);
+      window.location.assign("http://localhost:5173/ticket");
+    } catch (error) {
+      console.error("Error fetching cart:", error);
+    }
   }
 
   return (
@@ -87,20 +116,20 @@ export default function Checkout() {
           </p>
           <div className="flex justify-between text-sm text-slate-300">
             <span>Tickets</span>
-            <span>$4.20</span>
+            <span>${price.toFixed(2)}</span>
           </div>
           <div className="flex justify-between text-sm text-slate-400">
             <span>Tax</span>
-            <span>$0.00</span>
+            <span>${(price * 0.0775).toFixed(2)}</span>
           </div>
           <div className="flex justify-between text-base md:text-lg font-semibold text-slate-50 pt-2 border-t border-slate-700 mt-2">
             <span>Total</span>
-            <span>$4.20</span>
+            <span>${(price * 0.0775 + price).toFixed(2)}</span>
           </div>
         </div>
 
         {/* Form */}
-        <form onSubmit={handleSubmit} className="space-y-5">
+        <form className="space-y-5">
           {/* Payment + billing container */}
           <div className="rounded-xl border border-slate-800 bg-slate-750/40 px-4 py-5 md:px-6 md:py-6">
             <h2 className="text-sm md:text-base font-semibold mb-3">
@@ -356,7 +385,7 @@ export default function Checkout() {
                 <p className="text-xs md:text-sm text-slate-400 mt-2">
                   <span className="font-semibold capitalize">
                     {paymentMethod}
-                  </span>{" "}
+                  </span>
                 </p>
               )}
             </div>
@@ -372,6 +401,7 @@ export default function Checkout() {
 
               <button
                 type="submit"
+                onClick={getTicket}
                 className="inline-flex items-center justify-center rounded-full bg-amber-500 px-6 py-2.5 text-xs md:text-sm font-semibold text-slate-950 shadow-md hover:bg-amber-400 focus:outline-none focus:ring-2 focus:ring-amber-400 focus:ring-offset-2 focus:ring-offset-slate-900 transition"
               >
                 Confirm purchase
